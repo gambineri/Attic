@@ -1,11 +1,7 @@
-/*
- * NaryTree.java
- *
- * Created on 12 May 2006, 10:34
- *
- * To change this template, choose Tools | Template Manager
- * and open the template in the editor.
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.datastruct.narytree;
 

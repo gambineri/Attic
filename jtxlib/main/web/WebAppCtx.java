@@ -1,9 +1,7 @@
-/*
- * JTXWebAppCtx.java
- *
- * Created on 06 October 2005, 16:00
- *
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.web;
 

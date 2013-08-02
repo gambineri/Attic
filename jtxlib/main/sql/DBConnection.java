@@ -1,11 +1,7 @@
-/* $RCSfile: JTXConnection.java,v $
- * $Revision: 1.5 $
- * $Author: Gambineri $
- * $Date: 2006/06/09 14:40:05 $
- *
- * developed by Massimo Gambineri
- * ._..-_..-._-._..- ..-._-._- ._..-_..-._-._..- ..-._-._- ..-._-.
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.sql;
 

@@ -1,8 +1,7 @@
-/*
- * JTXChildNodesStreamer.java
- *
- * Created on 30 May 2006, 11:22
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.web.widgets.ntrenderer;
 

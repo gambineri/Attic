@@ -1,11 +1,7 @@
-/* $RCSfile: JTXDataManager.java,v $
- * $Revision: 1.6 $
- * $Author: Gambineri $
- * $Date: 2009/02/27 10:35:51 $
- *
- * developed by Massimo Gambineri
- * ._..-_..-._-._..- ..-._-._- ._..-_..-._-._..- ..-._-._- ..-._-.
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.sql;
 

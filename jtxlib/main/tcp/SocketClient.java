@@ -1,11 +1,7 @@
-/* $RCSfile: JTXSocket.java,v $
- * $Revision: 1.3 $
- * $Author: Gambineri $
- * $Date: 2006/05/11 07:46:51 $
- *
- * developed by Massimo Gambineri
- * ._..-_..-._-._..- ..-._-._- ._..-_..-._-._..- ..-._-._- ..-._-.
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.tcp;
 

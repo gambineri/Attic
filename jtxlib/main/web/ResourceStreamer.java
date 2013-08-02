@@ -1,8 +1,7 @@
-/*
- * JTXResourceStreamer.java
- *
- * Created on 08 May 2006, 11:38
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.web;
 

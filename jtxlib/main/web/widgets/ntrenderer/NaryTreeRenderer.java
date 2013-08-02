@@ -1,9 +1,7 @@
-/*
- * JTXNaryTreeRenderer.java
- *
- * Created on 18 May 2006, 15:05
- *
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.web.widgets.ntrenderer;
 

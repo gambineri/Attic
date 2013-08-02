@@ -1,8 +1,9 @@
 /*
+
  * Flexigrid for jQuery - New Wave Grid
  *
  * Copyright (c) 2008 Paulo P. Marinas (webplicity.net/flexigrid)
- * Dual licensed under the MIT (MIT-LICENSE.txt)
+ * Dual licensed under the MIT (LICENSE)
  * and GPL (GPL-LICENSE.txt) licenses.
  *
  * $Date: 2009/04/30 13:09:00 $

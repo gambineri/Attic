@@ -1,11 +1,7 @@
-/* $RCSfile: JTXTools.java,v $
- * $Revision: 1.13 $
- * $Author: Gambineri $
- * $Date: 2009/01/26 14:26:08 $
- *
- * developed by Massimo Gambineri
- * ._..-_..-._-._..- ..-._-._- ._..-_..-._-._..- ..-._-._- ..-._-.
- */
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.main.aux;
 

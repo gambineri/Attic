@@ -1,3 +1,8 @@
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
+
 var jsNTTable = (document.all ? document.all['NTTID'] : document.getElementById ? document.getElementById('NTTID') : null);
 var jsNTRows  = (jsNTTable == null ? null : jsNTTable.tBodies[0].rows);
 var jsHLRow   = -1; /* row index of the selected (highlighted) node */
