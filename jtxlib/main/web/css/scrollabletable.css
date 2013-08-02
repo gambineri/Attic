@@ -1,0 +1,11 @@
+div.scrollableTableContainer 
+{
+	clear: both;
+	overflow: auto;
+}
+
+div.scrollableTableContainer thead tr, div.scrollableTableContainer thead th
+{
+	position: relative;
+}
+
