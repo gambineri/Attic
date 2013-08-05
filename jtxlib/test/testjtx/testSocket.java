@@ -1,3 +1,8 @@
+/* 
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
+
 package jtxlib.test.testjtx;
 
 import jtxlib.main.aux.Debug;
