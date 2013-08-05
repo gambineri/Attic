@@ -1,14 +1,9 @@
 /*
  * @(#)testjtx.java 1.0 01/11/26
  *
- * You can modify the template of this file in the
- * directory ..\JCreator\Templates\Template_1\Project_Name.java
- *
- * You can also create your own project template by making a new
- * folder in the directory ..\JCreator\Template\. Use the other
- * templates as examples.
- *
- */
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.test.testjtx;
 
