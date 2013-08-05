@@ -3,9 +3,9 @@
  *
  * Created on 15 May 2006, 15:17
  *
- * To change this template, choose Tools | Template Manager
- * and open the template in the editor.
- */
+ * Copyright (c) 2013 Massimo Gambineri
+ * See the file LICENSE for copying permission.
+ * */
 
 package jtxlib.test.testjtx;
 
