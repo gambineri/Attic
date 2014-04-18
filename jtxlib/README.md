@@ -1,4 +1,4 @@
 jtxlib
 ======
 
-A web-oriented Java Library
+Web-oriented Java library
