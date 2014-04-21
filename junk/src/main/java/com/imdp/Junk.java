@@ -7,8 +7,14 @@ import java.util.Random;
 public class Junk {
 
   public static void main(String[] args) {
-    minWindow("-b--a-ac-b--a--b--c-a--c-b--".toCharArray(), "abc".toCharArray());
+//    minWindow("-b--a-ac-b--a--b--c-a--c-b--".toCharArray(), "abc".toCharArray());
 
+    Integer a1 = 10;
+    Integer a2 = 100;
+    Integer a3 = 1000;
+    Integer a4 = 10000;
+    Integer a5 = 100000;
+    Integer b = new Integer(20000);
 
   }
 
