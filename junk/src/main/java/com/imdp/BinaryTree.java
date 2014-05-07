@@ -78,7 +78,53 @@ public class BinaryTree {
 
     return ret;
   }
-}
+
+  /* Depth-First In-Order iterative without aux structures.
+   * This algo traverses the binary tree without recursion and without stack.
+   * It is also known as Morris Traversal.
+   ******************************************************************/
+  /*  */
+  String DFInOrderIterativeNoStruct(Node root)
+  {
+    String ret = "";
+    Node current, pre;
+
+    if(root == null)
+      return ret;
+
+    current = root;
+    while(current != null) {
+      if(current.mLeft == null) {
+        ret += current.print() + " ";
+        current = current.mRight;
+      }
+      else {
+        /* Find the inorder predecessor of current */
+        pre = current.mLeft;
+        while(pre.mRight != null && pre.mRight != current)
+          pre = pre.mRight;
+   
+        /* Make current as right child of its inorder predecessor */
+        if(pre.mRight == null)
+        {
+          pre.mRight = current;
+          current = current.mLeft;
+        }
+               
+        /* Revert the changes made in if part to restore the original 
+          tree i.e., fix the right child of predecssor */
+        else
+        {
+          pre.mRight = null;
+          ret += current.print() + " ";
+          current = current.mRight;
+        } /* End of if condition pre.mRight == NULL */
+      } /* End of if condition current->left == NULL*/
+    } /* End of while */
+
+    return ret;
+  }
+} // *** End of public class BinaryTree
 
 interface Printable {
   public String print();

@@ -26,6 +26,21 @@ public class BinaryTreeTest {
   }
 
   @Test
+  public void testDFInOrderIterativeNoStruct() throws Exception {
+    // AKA Morris traversal
+    Assert.assertEquals("Depth-First In-Order iterative no-structs (Morris traversal) is failing.",
+      m_BTObj.DFInOrderIterativeNoStruct(m_BT01),
+      "G M C A H D I root E B N L F ");
+
+    Assert.assertEquals("Depth-First In-Order iterative no-structs (Morris traversal) is failing.",
+      m_BTObj.DFInOrderIterativeNoStruct(m_BT02),
+      "3 5 6 7 10 12 13 15 16 18 20 23 ");
+
+//    System.out.println(m_BTObj.DFInOrderIterativeNoStruct(m_BT01));
+//    System.out.println(m_BTObj.DFInOrderIterativeNoStruct(m_BT02));
+  }
+
+  @Test
   public void testBFIterative() throws Exception {
     Assert.assertEquals("Breadth-First iterative is failing.",
                         m_BTObj.BFIterative(m_BT01),
