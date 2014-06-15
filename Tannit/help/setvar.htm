@@ -1,0 +1,111 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+
+<!-- TODO BEGIN -->
+setvar
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+varName,<BR>
+varValue
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command creates a variable named <i>varName</i> and sets its string formed value to <i>varValue</i>.
+The scope of such a variable is global; namely you declare a variable in a template and,
+after that, you can retrieve (or reset)  its value in any subsequent point of the same 
+template file or in any other one included with a <A HREF="prex.htm">*prex</A> or similar command.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+varName</span>
+<DD>Name of the variable to create.</DD>
+
+<span class=ParamName><BR>
+varValue</span>
+<DD>Value to assign to the variable being created.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command doesn't return any data.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+To retrieve the value of a variable created with this command, you must use the 
+<A HREF="getvar.htm">*getvar</A> one.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+<A HREF="getvar.htm">*getvar</A>(myVar, *setvar(myVar, This is the value of myVar.))
+<BR>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+</span>
+
+The output of the example is the string <i>This is the value of myVar.</i>
+<br>
+<br>
+<br>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

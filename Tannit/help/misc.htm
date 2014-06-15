@@ -1,0 +1,124 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+<center>
+Miscellanea
+</center>
+</span> 
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Comments</span>
+<br>
+Inside a template, it's possible to use the <b>$$</b> line-comment sequence, 
+which inhibits the processing until the end of the line itself.<br>
+<br>
+<br>
+<span class=CmdTitolo2>Preprocessing</span>
+<br>
+Every Tannit command can be <i>pre-processed</i> that is to say, normally 
+process the template but sending the output to a file stream, saved on the local
+machine in a directory indicated in the <b>preprocdir</b> prm variable, 
+with the same name and extension of the input template.<br>
+To use this feature, you call Tannit in the canonical way, but using the 
+get parameter <b>preproc</b> in place of <b>tpl</b> to indicate the input template,
+object of the preprocessing activity. To make a command preprocessable, you must
+simply substitute the start command tag * with the # one.<br>
+In preprocessing mode, every command beginning with * is ignored and treated as 
+regular text; in normal mode every command beginning with # is ignored and treated as 
+regular text.<br>
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Debug reports</span>
+<br>
+It is possible to substitute the normal Tannit standard output with the log messages
+reported in the debug file; this can be done by adding to the URL request a special
+value named <b>forcedebug</b>: 
+<br>
+<br>
+<table border=1 cellpadding=3>
+<tr>
+	<td>
+	<b>forcedebug value</b>
+	</td>
+	<td>
+	<b>meaning</b>
+	</td>
+</tr>
+
+<tr>
+	<td>
+	0
+	</td>
+	<td>
+	all messages
+	</td>
+</tr>
+
+<tr>
+	<td>
+	1
+	</td>
+	<td>
+	only command, warning and error messages
+	</td>
+</tr>
+
+<tr>
+	<td>
+	2
+	</td>
+	<td>
+	only warning and error messages
+	</td>
+</tr>
+
+<tr>
+	<td>
+	4
+	</td>
+	<td>
+	only error messages
+	</td>
+</tr>
+
+</table>
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Supported File Extentions</span>
+<br>
+The tannit default template extension is ".htm".<br>
+To enable different file extentions you have to set, in the
+parameter file, the "enableext" parameter to any value, example:<br>
+enableext=yes<br>
+Note: the use of the "enableext" parameter will prevent tannit
+from adding the ".htm" extention to the template name.
+<br>
+<br>
+
+<br>
+<BR>
+<BR>
+<BR>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,110 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*makeop
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+expr,<BR>
+[format]
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Executes algebric operations not taking care of any kind of parenthesis.
+<br>
+It's possible to use the following operators: 
+<b>+</b>, <b>-</b>, <b>*</b>, <b>/</b>, <b>%</b>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+expr</span>
+<DD>algebric expression to evaluate.</DD>
+<span class=ParamName><BR>
+format</span>
+<DD>C-like format string: optional parameter.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+A string representing the result of the evaluation in decimal format
+if no <i>format</i> parameter is given.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+If you need to nest multiple expressions, 
+you can do that by recursing the command itself.<BR>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+</span>
+
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+<DD>*makeop(*makeop(10 * 4) + *makeop(400 / *makeop(1 + 2 * 3 / 4) + 5) - 9, %.0f)<br>
+</DD>
+<BR>
+<BR>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

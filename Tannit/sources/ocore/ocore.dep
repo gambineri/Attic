@@ -1,0 +1,130 @@
+# Microsoft Developer Studio Generated Dependency File, included by ocore.mak
+
+.\auxfile.cpp : \
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	".\auxfile.h"\
+	
+
+.\cgiresolver.cpp : \
+	"..\..\include\defines.h"\
+	"..\..\include\fcgi_stdio.h"\
+	"..\..\include\fcgiapp.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	".\auxfile.h"\
+	".\cgiresolver.h"\
+	
+
+.\commands.cpp : \
+	"..\..\..\..\programmi\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	"..\..\include\itxtypes.h"\
+	"..\..\include\tnt.h"\
+	".\auxfile.h"\
+	".\cgiresolver.h"\
+	".\commands.h"\
+	".\desx.h"\
+	".\parser.h"\
+	".\templatefile.h"\
+	".\tntsql.h"\
+	".\tqr.h"\
+	".\tqrodbc.h"\
+	
+
+.\desx.cpp : \
+	".\desx.h"\
+	
+
+.\parser.cpp : \
+	"..\..\..\..\programmi\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	"..\..\include\tnt.h"\
+	".\auxfile.h"\
+	".\cgiresolver.h"\
+	".\commands.h"\
+	".\parser.h"\
+	".\tannitobj.h"\
+	".\templatefile.h"\
+	".\tntapiimpl.h"\
+	".\tntsql.h"\
+	".\tqr.h"\
+	".\tqrodbc.h"\
+	
+
+.\tannitobj.cpp : \
+	"..\..\..\..\programmi\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\include\fcgi_config.h"\
+	"..\..\include\fcgi_stdio.h"\
+	"..\..\include\fcgiapp.h"\
+	
+
+.\templatefile.cpp : \
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	".\auxfile.h"\
+	".\templatefile.h"\
+	
+
+.\tntapiimpl.cpp : \
+	"..\..\..\..\programmi\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	"..\..\include\tnt.h"\
+	".\auxfile.h"\
+	".\cgiresolver.h"\
+	".\parser.h"\
+	".\tannitobj.h"\
+	".\templatefile.h"\
+	".\tntapiimpl.h"\
+	".\tntsql.h"\
+	".\tqr.h"\
+	".\tqrodbc.h"\
+	
+
+.\tntsql.cpp : \
+	"..\..\..\..\programmi\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	"..\..\include\itxtypes.h"\
+	".\auxfile.h"\
+	".\tntsql.h"\
+	
+
+.\tqr.cpp : \
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	"..\..\include\itxtypes.h"\
+	".\auxfile.h"\
+	".\tqr.h"\
+	
+
+.\tqrodbc.cpp : \
+	"..\..\..\..\programmi\microsoft visual studio\vc98\include\basetsd.h"\
+	"..\..\include\defines.h"\
+	"..\..\include\itxcoll.h"\
+	"..\..\include\itxlib.h"\
+	"..\..\include\itxString.h"\
+	"..\..\include\itxtypes.h"\
+	".\auxfile.h"\
+	".\tntsql.h"\
+	".\tqr.h"\
+	".\tqrodbc.h"\
+	

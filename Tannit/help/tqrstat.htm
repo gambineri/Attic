@@ -1,0 +1,134 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*tqrstat(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+tqrName,<BR>
+statFlag
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Returns various kinds of statistics and info about the specified 
+Tannit Query Resultset (<i>tqr</i>). 
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+tqrName</span>
+<DD>The name of the tqr which is requested info about.</DD>
+
+<span class=ParamName><BR>
+statFlag</span>
+<DD>A string flag indicating the kind of info requested: 
+<br>
+<br>
+<table border=1 cellpadding=3>
+<tr>
+	<td>
+	TOTRECS
+	</td>
+	<td>
+	Total number of records actually contained in the <i>tqr</i>.
+	</td>
+</tr>
+<tr>
+	<td>
+	ACTUALROW
+	</td>
+	<td>
+	The current value of a 1-based integer cursor on the records of the <i>tqr</i>.
+	This value is -1 when the the cursor is positioned after the last row 
+	(EOF position); this value is 0 when the cursor is positioned before
+	the first row (BOF position).
+	</td>
+</tr>
+<tr>
+	<td>
+	ROWSTOSTORE
+	</td>
+	<td>
+	The requested number of rows when making the query.
+	</td>
+</tr>
+<tr>
+	<td>
+	STARTINGROW
+	</td>
+	<td>
+	The requested 1-based index of the row from which to start when making the query
+	and populating the tqr with records from db.
+	</td>
+</tr>
+<tr>
+	<td>
+	MORERECS
+	</td>
+	<td>
+	When this flag is specified, the return value is a string containing a literal
+	<b>true</b> or <b>false</b>, indicating respectively the existence 
+	(on the database) of other records more than the requested number.
+	</td>
+</tr>
+<tr>
+	<td>
+	SOURCECOUNT
+	</td>
+	<td>
+	The return value of the command will be significative only if the <i>tqr</i> has 
+	been created from a database source. In this case, the return value indicates the
+	number of records in the database source.
+	</td>
+</tr>
+<tr>
+	<td>
+	ACTUALPAGE
+	</td>
+	<td>
+	Returns the current page number of the record subset loaded in the <i>tqr</i>. 
+	</td>
+</tr>
+</table>
+</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

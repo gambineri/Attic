@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+<!-- TODO BEGIN -->
+recsel
+<!-- TODO END -->
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+tqrName,<BR>
+tqrField,<BR>
+cnfSrc,<BR>
+cnfField
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Similarly to the <A HREF="recval.htm">*recval</A> command, this one returns a 
+string which is the <i>tqrField</i> field value in the current record of the 
+<i>tqrName</i> specified tqr; furthermore, it adds the string " SELECTED" to 
+the return value, if and only if data is equal to the one determined by the 
+second couple of parameters: <i>cnfSrc</i>, <i>cnfField</i> which indicate 
+respectively another tqr name and field name.
+ 
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+tqrName </span>
+<DD>Name of the tqr from which the return value has to be extracted.</DD>
+
+<span class=ParamName><BR>
+tqrField </span>
+<DD>Name of the field to be retrieved.</DD>
+
+<span class=ParamName><BR>
+cnfSrc </span>
+<DD>Name of the tqr used to make the comparison; if this parameter is the string 
+<i>get</i>, the comparison value is searched among the http GET parameters.</DD>
+
+<span class=ParamName><BR>
+cnfField </span>
+<DD>Name of the field to compare.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

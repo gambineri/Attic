@@ -1,0 +1,104 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+
+<!-- TODO BEGIN -->
+cycle
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+tqrname
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Defines the starting point of a cycle on  the records in the tqr specified by name in the parameter.
+The <A HREF="endcycle.htm">*endcycle</A> command is necessary, otherwise an unpredictable behaviour is expected.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+tqrname</span>
+<DD>The name of the (existing) tqr on which the cycle will be done.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command doesn't return any data.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+The cycle begins from the current cursor position; the user must set the desired position 
+of the internal cursor by using the <A HREF="setrec.htm">*setrec</A> command.<BR>
+Note that if the cursor is at the beginning of the tqr, making two identical and consecutive cycles
+without using the <b>*setrec</b> command, implies that the first cycle is executed on all rows, the second one
+is not executed, because the internal cursor is at the end of the rowset.<br>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+*exeq(articles, "SELECT * FROM articles", 5, 10)<br>
+
+*cycle(articles)<br>
+<dd>*recval(articles, id)</dd><br>
+*endcycle(articles)<br>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+</BODY>
+</HTML>

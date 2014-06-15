@@ -1,0 +1,167 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+
+<!-- TODO BEGIN -->
+tqrmove
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+tqrName,<BR>
+action,<BR>
+[row]
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Every tqr has an internal cursor over the rowset; this one has 1-based logic and
+it's used to make a specified record the current one.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+tqrName </span>
+<DD>Name of the tqr on which the command will operate.</DD>
+
+<span class=ParamName><BR>
+action </span>
+<DD>Type of movement desired:
+<table border=1 cellpadding=3>
+<tr>
+	<td>
+	FIRST
+	</td>
+	<td>
+		Moves the cursor to the first record.
+	</td>
+</tr>
+
+<tr>
+	<td>
+	LAST
+	</td>
+	<td>
+		Moves the cursor to the last record.
+	</td>
+</tr>
+
+<tr>
+	<td>
+	NEXT
+	</td>
+	<td>
+		Moves the cursor to the next record.
+	</td>
+</tr>
+
+<tr>
+	<td>
+	TO
+	</td>
+	<td>
+		Moves the cursor to the record specified by the third parameter, <i>row</i>.
+	</td>
+</tr>
+</table>
+</DD>
+
+<span class=ParamName><BR>
+row </span>
+<DD>
+This parameter makes sense only if TO action is requested. 
+See the description of the <i>action</i> parameter.
+</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command doesn't return any data.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+<pre>
+<A HREF="exeq.htm">*exeq</A>(q1, "SELECT * FROM TABLE1", 1, 1000)
+
+*tqrmove(q1, LAST)
+<A HREF="tqrstat.htm">*tqrstat</A>(q1, ACTUALROW)<br>
+*tqrmove(q1, FIRST)
+<A HREF="tqrstat.htm">*tqrstat</A>(q1, ACTUALROW)<br>
+*tqrmove(q1, NEXT)
+<A HREF="tqrstat.htm">*tqrstat</A>(q1, ACTUALROW)<br>
+*tqrmove(q1, TO, 3)
+<A HREF="tqrstat.htm">*tqrstat</A>(q1, ACTUALROW)<br>
+</pre>
+
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+
+The sample above returns the following results:
+<br>
+
+<pre>
+1000
+1
+2
+3
+</pre>
+
+
+<br>
+<br>
+<br>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

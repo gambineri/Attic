@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+
+<!-- TODO BEGIN -->
+get
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+varName,<BR>
+[defVal]
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Returns a string representing the value of the <i>get</i> parameter whose name is 
+<i>varName</i> actual value.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+varName</span>
+<DD>Name of the <i>get</i> parameter to retrieve.</DD>
+
+<span class=ParamName><BR>
+defVal</span>
+<DD>If the parameter is not found in the <i>get</i> string, the value contained in 
+		this parameter is returned, unless it'a + sign: in this case, (and if the parameter is found)
+		the value returned is a string in which every non-alphanumeric ascii character is substitued
+		with the relative two-digits hex sequence <b>%xx</b>. 
+		If the parameter has not been found, the value returned is the empty string. 
+</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+
+<BR>
+
+</span>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,1 @@
+tntsetup G:\Sviluppo\Tannit\tntsetup\cico.txt G:\Sviluppo\Tannit\tntsetup\Release\cico.txt /REBOOT

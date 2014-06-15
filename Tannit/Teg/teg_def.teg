@@ -1,0 +1,27 @@
+//[[BEGIN_GENERATED_CODE]]
+$teg_header($getvar(TEG_module_name))#include "tnt.h"
+#include "itxlib.h"
+
+//[[write your include file here below]]
+
+//[[write your include file here above]]
+
+$teg_load($getvar(TEG_module_name).lst, TEG_command_list)$cycle(TEG_command_list)//
+//[[command $recval(TEG_command_list, f1)]]
+//
+class $recval(TEG_command_list, f1) : public AbstractCommand
+{
+public:
+  itxString  m_Name;
+  itxString  m_Output;
+
+  $recval(TEG_command_list,  f1)(char* name) { m_Name = name; }
+  ~$recval(TEG_command_list,  f1)() {}
+
+  char* Execute(char* inputstr);
+  char* GetName(){ return m_Name.GetBuffer(); }
+  void  Deallocate(){}
+};
+
+$endcycle(TEG_command_list)//[[END_GENERATED_CODE]]
+

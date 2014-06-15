@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+
+<!-- TODO BEGIN -->
+fmtcur
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+srcNum,<BR>
+[decNum]
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command translates the integer <i>srcNum</i> value into Italian currency format with <i>decNum</i> decimal digits.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+srcNum</span>
+<DD>The input value</DD>
+
+<span class=ParamName><BR>
+decNum</span>
+<DD>The desired number of decimals; it can be every nonnegative integer value.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<pre>
+*fmtcur(123456789, 0)
+*fmtcur(123456789, 2)
+*fmtcur(1000000, 10)
+</pre>
+
+<br>
+<br>
+<br>
+
+</span>
+The output of the sample above is :<br>
+<pre>
+123.456.789
+1.234.567,89
+0,0001
+</pre>
+
+<br>
+<br>
+<br>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

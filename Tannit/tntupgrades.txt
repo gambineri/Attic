@@ -1,0 +1,177 @@
+=================================================================
+MGPC00005           COMANDO DI BASE getenv
+=================================================================
+
+Ritorna il valore della variabile di ambiente richiesta.
+
+Es. per la richiesta:                                   
+
+  http://myserver/cgi-bin/tannit.exe?tpl=pippo&prm=pluto
+  
+il comando *getenv(QUERY_STRING) ritorna la stringa
+
+          tpl=pippo&prm=pluto
+                                                   
+                                                   
+=================================================================
+MGPC00005           COMANDO DI BASE email
+=================================================================
+
+Parametri:
+    smtp_server,
+    domain,
+    sender,
+    subject,
+    message,
+    attachments,
+    rcpt_1, ..., rcpt_N
+
+         
+Esempio:                                                       
+*email(smtp.yourprovider.it,
+       YourDomain, 
+       <sender@aitecsa.it>,
+       subject, 
+       body, 
+       a.gif | C:\b.jpg, 
+       <aitecsa@aitecsa.it>, <pippo@aitecsa.it>, <pluto@aitecsa.it>)
+
+N.B.
+1) I valori del sender e di tutti i recipient DEVONO essere
+   indicati tra parentesi angolari, pena il non-funzionamento
+   del comando.
+2) il parametro domain (che identifica logicamente il gruppo a cui
+   appartiene il sender) non deve contenere spazi bianchi.
+3) Il parametro attachments deve essere una stringa di percorsi
+   separati dal carattere '|'.
+         
+=================================================================
+MGPC00004           FACILITIES PER TEM
+=================================================================
+In tnt.h sono ora presenti tre macro che semplificano la scrittura 
+di TEM (Tannit Extension Modules):
+                                                     
+                                                     
+              BEGIN_TANNIT_COMMAND_LIST
+              
+              TANNIT_COMMAND(command_object_instance)
+              
+              END_TANNIT_COMMAND_LIST                
+              
+
+Se ad esempio si vuole fare una dll che esporta il comando "pippo"
+il file cpp sara` il seguente (PippoObj e` il nome della classe):
+
+........................
+
+PippoObj  cmd01("pippo");
+
+BEGIN_TANNIT_COMMAND_LIST
+  TANNIT_COMMAND(cmd01)
+END_TANNIT_COMMAND_LIST
+         
+char* PippoObj::Execute(char* inputstr)
+{
+  return "qualcosa";
+}
+........................
+
+
+=================================================================
+MGPC00004           VARIABILI E VALORI IN PRM E CONF
+=================================================================
+Finalmente le variabili in prm e conf possono essere assegnate 
+con gli spazi sia a sx che a dx dell'uguale.
+
+
+
+=================================================================
+MGPC00004           COMANDO TQRSTAT
+=================================================================
+Esteso il comando tqrstat: aggiunta la possibilita` di recuperare
+info sui campi di un tqr; bisogna passare come secondo parametro
+una stringa che indica il tipo di informazione richiesta e come
+terzo parametro (quando serve) l'indice 0-based del campo, cioe`:
+                                                          
+                                                          
+        --------------------------------------------------
+          par 1 |  par 2   |  par 3  |       ritorno
+        --------------------------------------------------
+          tqr   | COLCOUNT |         |   numero di campi
+          tqr   | COLNAME  |  colidx |   nome del campo
+          tqr   | COLTYPE  |  colidx |   tipo del campo
+          tqr   | COLSIZE  |  colidx |   size del campo
+                                                          
+                                                          
+Negli ultimi due casi i valori tornati sono quelli previsti dalla
+documentazione standard ODBC.
+                                                                     
+
+
+=================================================================
+MGPC00003            COMANDO POSTBODY
+=================================================================
+Il comando postbody ritorna il corpo di un messaggio POST.
+Il comando postbody non necessita di parametri.
+
+
+
+=================================================================
+MGPC00003            MODALITA` SERVIZIO
+=================================================================
+Si intende con cio` che una specifica url sia invocabile per richiedere uno
+specifico servizio: in questo caso il client non indichera` il template da usare
+nel parametro tpl, perche` tannit usera` SEMPRE quello indicato SENZA ESTENSIONE 
+nella variabile 
+    
+    tplservice
+    
+che dovra` essere presente nel file di configurazione (conf).
+
+            
+            
+=================================================================
+MGPC00003            RESPONSE MIME TYPE
+=================================================================
+
+Si puo` settare il mime type della risposta di tannit a qualsivoglia valido valore
+in due modi: sulla string di get passandolo tramite il parametro builtin
+
+  mime
+
+il che' ha validita` localmente al run per quella richiesta, oppure impostando
+il valore della variabile di configurazione (conf o prm)
+
+  mime
+  
+estendendo tale validita` a tutte le richieste o a quelle che usano un certo prm.
+Se questo settaggio non viene eseguito, tutto continuera` a funzionare come prima
+e tannit inviera` il mime type di default (text/html).
+
+
+N.B.
+---
+La pratica di alterare il mime della risposta comporta che tannit non invia piu` 
+il disclaimer (per non 'sporcare' i dati inviati). L'unico mime type che fa viaggiare
+il disclaimer e` il default, ovvero 'text/html'.
+
+            
+            
+            
+=================================================================
+MGPC00003            MODALITA` INQUIRY (RUN DIAGNOSTICO)
+=================================================================
+
+Si attiva richiamando tannit con il parametro 'diagnostic' 
+nella query string, assegnandogli qualsiasi cosa, ad es.
+
+    domain/cgi-bin/tannit.exe?tpl=boh1&prm=boh2&diagnostic=boh3
+    
+    
+N.B.
+---
+La modalita` inquiry e` disattivabile applicando al file eseguibile tannit.exe
+(o come lo avete rinominato) l'attributo di sola lettura.
+
+
+    

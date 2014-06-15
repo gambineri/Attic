@@ -1,0 +1,143 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "core"=.\sources\core\core.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    core_massimo
+    .\sources\core
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "itannit"=.\sources\itannit\itannit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    itannit_massimo
+    .\sources\itannit
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "itxlib"=..\itxlib\itxlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    itxlib
+    ..\itxlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "itxlibssl"=..\itxlib\itxlibssl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    itxlib
+    ..\itxlib
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ocore"=.\sources\ocore\ocore.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    ocore_massimo
+    .\sources\ocore
+    end source code control
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name itxlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "teg"=.\Teg\teg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    teg
+    .\teg
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "test"=..\itxlib\test\test.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name itxlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "tntsetup"=.\tntsetup\tntsetup.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

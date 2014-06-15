@@ -1,0 +1,217 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+<!-- TODO BEGIN -->
+exeq
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+tqrname, <BR>
+SQLstatement,<br>
+[startingRow,]<br>
+[rowsToStore]
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command executes any type of SQL query statement using the ODBC drivers. It requires the proper configuration
+of the <b>odbcdsn</b>, <b>odbcuid</b>, <b>odbcpwd</b> prm variables, which must respectively contain the ODBC 
+data source name, the user-name and relative password needed to access the target database.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+tqrname </span>
+<DD>Name of the Tannit Query Resultset (<i>tqr</i>) to associate with the requested query.</DD>
+
+<span class=ParamName><BR>
+SQLstatement </span>
+<DD>SQL statement to execute.</DD>
+
+<span class=ParamName><BR>
+startingRow</span>
+<DD>The initial value of the row (record) to store in the specified <i>tqr</i>.
+This parameter is optional and its default value is <b>1</b>.
+</DD>
+
+<span class=ParamName><BR>
+rowsToStore</span>
+<DD>The maximum number of rows (records) to retrieve and store in the specified <i>tqr</i>.
+This parameter is optional and its default value is <b>512</b>.
+</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command doesn't return any data.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+If the SQL statement contains more than one result set, namely, more than one single 
+SELECT command, it's possible to retrieve all this resultsets using the name 
+currently assigned to the statement, i.e. the value of <i>tqrname</i> parameter.
+<br>
+The rule is: first result set is assigned the <i>tqrname</i> value, second resultset
+is assigned the name composed by the <i>tqrname</i> value and the number 1, and so on.
+<br>
+Suppose that the actual value of <i>tqrname</i> is <b>mytqr</b> and that the SQL 
+statement contains 4 SELECT commands which return valid data, then you can retrieve
+all of them using respectively the names:
+<pre>
+		mytqr
+		mytqr1
+		mytqr2
+		mytqr3
+</pre>
+<br>
+
+<!-- TODO END -->
+
+<span class=CmdTitolo2>Example </span>
+<br>
+<br>
+Suppose you have a table named <i></i> containing two fields: <i>ID</i> and <i>descr</i>:
+<span class=Codice>
+
+<br>
+<!-- TODO BEGIN -->
+<pre>
+*exeq(query1, "SELECT * FROM table1")
+
+&lt;table border=1 cellpadding=3&gt;
+&lt;tr&gt;
+  &lt;td&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;descr&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+<A HREF="cycle.htm">*cycle</A>(query1)
+&lt;tr&gt;
+  &lt;td&gt;<A HREF="recval.htm">*recval</A>(query1, ID)&lt;/td&gt; &lt;td&gt;*recval(query1, descr)&lt;/td&gt;
+&lt;/tr&gt;
+<A HREF="endcycle.htm">*endcycle</A>(query1)
+&lt;table&gt;
+
+&lt;br&gt;
+
+*exeq(query2, "SELECT * FROM table1", 2, 4)
+
+&lt;table border=1 cellpadding=3&gt;
+&lt;tr&gt;
+  &lt;td&gt;&lt;b&gt;ID&lt;/b&gt;&lt;/td&gt; &lt;td&gt;&lt;b&gt;descr&lt;/b&gt;&lt;/td&gt;
+&lt;/tr&gt;
+*cycle(query2)
+&lt;tr&gt;
+  &lt;td&gt;*recval(query2, ID)&lt;/td&gt; &lt;td&gt;*recval(query2, descr)&lt;/td&gt;
+&lt;/tr&gt;
+*endcycle(query2)
+&lt;table&gt;
+</pre>
+<br>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+
+The sample code above outputs this:
+<br>
+<br>
+
+<center>
+
+<table border=1 cellpadding=3>
+<tr>
+  <td><b>ID</b></td> <td><b>descr</b></td>
+</tr>
+<tr>
+  <td>1</td> <td>a</td>
+</tr>
+<tr>
+  <td>2</td> <td>b</td>
+</tr>
+<tr>
+  <td>3</td> <td>c</td>
+</tr>
+<tr>
+  <td>4</td> <td>d</td>
+</tr>
+<tr>
+  <td>5</td> <td>e</td>
+</tr>
+<tr>
+  <td>6</td> <td>f</td>
+</tr>
+</table>
+<br>
+
+<table border=1 cellpadding=3>
+<tr>
+  <td><b>ID</b></td> <td><b>descr</b></td>
+</tr>
+<tr>
+  <td>2</td> <td>b</td>
+</tr>
+<tr>
+  <td>3</td> <td>c</td>
+</tr>
+<tr>
+  <td>4</td> <td>d</td>
+</tr>
+<tr>
+  <td>5</td> <td>e</td>
+</tr>
+</table>
+
+<br>
+<br>
+<br>
+
+
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

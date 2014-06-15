@@ -1,0 +1,6 @@
+1. Crash rilevato nella ITannit_NewTQRFrom chiamata dal comando filtTQR di Tannit.
+   Il crash è dovuto ad un malfunzionamento della funzione che alloca i record nell'estrazione da
+   SQL server, poiché anche se totalrows = N i record effettivi nel TQR sono N+1.
+   SI è momentaneamente fissato ciclando sul numero di record della source piuttosto che
+   visitando la lista dei record tramite il puntatore next.
+   

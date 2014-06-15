@@ -1,0 +1,181 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*if(
+</span>
+<span class=ParamName>
+leftVal <i>Operator</i> rightVal
+</span>
+<span class=CmdTitolo>
+)
+<br>
+<br>
+*elsif(
+</span>
+<span class=ParamName>
+leftVal <i>Operator</i> rightVal
+</span>
+<span class=CmdTitolo>
+)
+<br>
+<br>
+*else()
+<br>
+<br>
+*endif()
+<br>
+<br>
+</span>
+
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Conditional commands to avoid or permit the processing of blocks of code during 
+the processing itself. 
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+leftVal</span>
+<DD>Some text which is the string representation of the left value of the operand.</DD>
+
+<span class=ParamName><BR>
+Operator</span>
+<DD> The binary operator used to determine a boolean value. Supported operators:</DD>
+
+<br>
+<br>
+
+<dd>
+<table border=1 cellpadding=3>
+<tr>
+	<td>
+	==
+	</td>
+	<td>
+	comparison operator
+	</td>
+</tr>
+<tr>
+	<td>
+	!=
+	</td>
+	<td>
+	inequality operator
+	</td>
+</tr>
+<tr>
+	<td>
+	&lt;
+	</td>
+	<td>
+	less than operator
+	</td>
+</tr>
+<tr>
+	<td>
+	&lt;=
+	</td>
+	<td>
+	less than or equal operator
+	</td>
+</tr>
+<tr>
+	<td>
+	&gt;=
+	</td>
+	<td>
+	greater than operator
+	</td>
+</tr>
+<tr>
+	<td>
+		&gt;
+	</td>
+	<td>
+	greater than or equal to operator
+	</td>
+</tr>
+</table>
+</dd>
+
+<span class=ParamName><BR>
+rightVal</span>
+<DD>Some text which is the string representation of the right value of the operand.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+The use of <i>elsif</i> after <i>else</i> is actually permitted, although the result
+is absolutely unpredictable. In any case, we believe in your smart mind which, surely, 
+has just understood the nonsense hidden in a similar construct.<BR>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+*if(1==1)<br>
+&nbsp Block 1&lt;br&gt;<br>
+&nbsp   *if(1>=)<br>
+&nbsp &nbsp     This block will never be processed&lt;br&gt;<br>
+&nbsp   *elsif(aa!=cc)<br>
+&nbsp &nbsp     Block 2&lt;br&gt;<br> 
+<br>
+&nbsp &nbsp     *if(abc >= ab)<br>
+&nbsp &nbsp &nbsp       Block 3&lt;br&gt;<br> 
+&nbsp &nbsp     *elsif(abc <= ab)<br>
+&nbsp &nbsp &nbsp       This block will never be processed&lt;br&gt;<br>
+&nbsp &nbsp     *endif()    <br>
+<br>
+&nbsp   *elsif(bb==bb)<br>
+&nbsp &nbsp     This block will never be processed&lt;br&gt;<br>
+&nbsp   *else()<br>
+&nbsp &nbsp     This block will never be processed&lt;br&gt;<br>
+&nbsp   *endif()  <br>
+*endif()<br>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+</BODY>
+</HTML>

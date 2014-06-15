@@ -1,0 +1,114 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+
+<!-- TODO BEGIN -->
+recval
+<!-- TODO END -->
+
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+tqrname,<BR>
+fieldname
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Retrieves from the specified tqr the value of the requested field in the current row. 
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+tqrname </span>
+<DD>Name of the Tannit Query Resultset (<i>tqr</i>) from which the data is to be retrieved.</DD>
+
+<span class=ParamName><BR>
+fieldname </span>
+<DD>Name of the column whose data value is to be retrieved.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+A string representing the requested value.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+<A HREF="exeq.htm">*exeq</A>(query, "SELECT * FROM table1")<br>
+
+<A HREF="cycle.htm">*cycle</A>(query)<br>
+&nbsp*recval(query, ID)<br>
+<A HREF="endcycle.htm">*endcycle</A>(query)<br>
+
+
+
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+The sample code above returns the value of the field named <i>ID</i> for all the records
+contained in the table <i>table1</i>.
+<br>
+<br>
+<br>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

@@ -1,0 +1,147 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+<!-- TODO BEGIN -->
+traceu
+<!-- TODO END -->
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+feature
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Retrieves various informations about the current user agent.
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+feature</span>
+<DD>String which represents the nature of the information that is being retrieved:</DD>
+<br>
+<br>
+<dd>
+<table border = 1 cellpadding=4>
+<tr>
+	<td>
+	<i>brname</i> 
+	<td>
+	browser name.
+	</td>
+</tr>
+<tr>
+	<td>
+	<i>brver</i>
+	<td>
+	browser version.
+	</td>
+</tr>
+<tr>
+	<td>
+	<i>osname</i>
+	<td>
+	operative system name.
+	</td>
+</tr>
+<tr>
+	<td>
+	<i>ipnum</i>
+	<td>
+	ip address.
+	</td>
+</tr>
+<tr>
+	<td>
+	<i>ipname</i>
+	<td>
+	host name (if the web server exports this info).
+	</td>
+</tr>
+</table>
+</dd>
+
+
+
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+A string representing the content of the requested information.<BR>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+Browser         = *traceu(brname)<br>
+Browser version = *traceu(brver)<br>
+OS Name         = *traceu(osname)<br>
+IP Address      = *traceu(ipnum)<br>
+Hostname        = *traceu(ipname)<br>
+<!-- TODO END -->
+
+<br>
+<br>
+<br>
+
+</span>
+This produces the output:<br><br><br>
+<i>
+Browser = MS Internet Explorer<br>
+Browser version = 4.01<br>
+OS Name = MS Windows NT<br>
+IP Address = 194.0.0.11<br>
+Hostname = <br>
+</i>
+
+<br>
+<br>
+<br>
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

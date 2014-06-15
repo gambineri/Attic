@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+<TITLE>Tannit 4.0 Command Reference </TITLE>
+</HEAD>      
+
+<BODY TEXT="#000000" BGCOLOR="#ffffff" TOPMARGIN=0>
+<LINK REL=STYLESHEET HREF="styles.css" TYPE="text/css">
+
+<span class=CmdTitolo>
+*
+<!-- TODO BEGIN -->
+valid
+<!-- TODO END -->
+(</span>
+<BR>
+<span class=ParamName>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+login,<BR>
+password,<BR>
+[extraField],<BR>
+[extraVal]
+<!-- TODO END -->
+
+</span>
+<BR>
+
+<span class=CmdTitolo>
+)</span> 
+<BR>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Using an auxiliary table in a ODBC accessible database, this command implements
+a validation check on users trying to enter protected sections of the template in which
+the command itself is used; if the user is not validated the processing of the current
+template stops immediatly and redirects to an optional error template.
+<br>
+This command performs a query that is something like this:<br><br>
+SELECT pwdfield FROM logintable WHERE loginfield = <i>login</i> AND <i>extraField</i> = <i>extraVal</i>
+<br>
+
+
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+<span class=CmdTitolo2>Parameters </span>
+<BR>
+
+<!-- TODO BEGIN : Add the following block until TODO END for each parameter -->
+<span class=ParamName><BR>
+login</span>
+<DD>unique identifier value of the user to validate.</DD>
+
+<span class=ParamName><BR>
+password</span>
+<DD>password of the user to validate (see the <i>remarks</i> section).</DD>
+
+<span class=ParamName><BR>
+extraField</span>
+<DD>optional parameter indicating another field name (on the same login table)
+used to perform additional validation check.</DD>
+
+<span class=ParamName><BR>
+extraVal</span>
+<DD>optional parameter indicating the value to use with the extraField parameter.</DD>
+<!-- TODO END -->
+
+<BR>
+<BR>
+<BR>
+
+<span class=CmdTitolo2>Return Values</span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+This command doesn't return any data.<BR>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Remarks </span>
+<BR>
+<BR>
+
+<!-- TODO BEGIN -->
+Note that the <i>password</i> parameter can be a crypted value on the database, 
+in this case you must call this command by using the proper <s>crypt</s> function,
+in order to let the valid command make the comparison correctly.
+<BR>
+<br>
+When the valid command returns with validation failure, it looks for a template named
+<b>loginerror</b>, created in the template directory to contain any message for the user
+attempting the validation. You can use this placeholder template to comunicate further 
+actions for the final user. When this event occurs, the error template is included as if
+you called a <A HREF="prex.htm">*prex</A> command on it. 
+<br>
+<br>
+Also note that the <i>login</i> parameter can be a numeric or text value on the db, but you don't need 
+to put any quotes around this value (in 'text' case); the command will inquiry the database
+and will make the appropriate choise.
+<br>
+<!-- TODO END -->
+
+<BR>
+<span class=CmdTitolo2>Example </span>
+<BR>
+<BR>
+<span class=Codice>
+
+<!-- TODO BEGIN -->
+*valid(<A HREF="get.htm">*get</a>(login), <A HREF="crypt.htm">*crypt</A>(<A HREF="get.htm">*get</a>(clear_pwd)))<br>
+<br>
+Other commands following...<BR>
+<!-- TODO END -->
+
+</span>
+
+<br>
+This example takes from the 'get string' the values of the parameters 'login' and 'clear_pwd' and uses them
+as arguments of the valid command.
+<br>
+<br>
+
+
+<center>
+<A HREF="index.htm">Command Reference Index</A><br>
+</center>
+
+<br>
+<br>
+<br>
+
+
+
+</BODY>
+</HTML>

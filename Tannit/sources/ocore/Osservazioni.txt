@@ -1,0 +1,95 @@
+
+                      -------------------------------
+							BUCHI + OSSERVAZIONI
+                      -------------------------------
+
+
+
+____________________________________________________________________
+
+
+Comando else:
+
+dopo l'else NON ci dovrebbe stare altro che un endif, 
+la qual cosa, attualmente non e` gestita!!!!
+
+ES.:
+
+  *if(2==1)
+      qualcosa<br>
+  *elsif(3==4)
+      qualche altra cosa<br>
+  *else()			
+      mmmmm<br> 
+  *elsif(3==3)		<-------------------- PROBLEMA!
+      cazzzz<br> 
+  *else()
+      ennamo<br> 
+  *endif()
+
+
+____________________________________________________________________
+
+Array dei comandi: andrebbe ordinato e implementatato (anche) un
+semplice algoritmo di ricerca dicotomica. Da vedere insieme alla
+eventuale gestione della creazione dinamica dei comandi (cioe` solo
+quando e` la prima volta che vengono invocati). Oppure dichiarazione
+nel prm dei comandi che si voglio usare per limitare la lista 
+evitando proprio di crearli.
+____________________________________________________________________
+
+Debug per l'utente che scrive moduli esterni:
+
+DebugTrace e` attualmente usata per fare il report di eccezioni ed 
+errori delle TNTAPI: si dovra` prevedere di scrivere su un file 
+che non e` il NOSTRO file di debug di tannit...
+____________________________________________________________________
+
+
+Da fare:
+
+	2) fruibilita` file di debug (vedi punti prec.)
+
+	3) documentazione di progetto e manuale comandi
+
+	4) tester: generatore di richieste MultiThreaded
+
+	5) la questione ISAPI
+
+	6) comandi dalla stringa di get (questione del wrinfo)
+
+	7) progettazione editor gasp
+
+	8) invoke
+
+	9) serializzazione/deserializzazione su file di un tqr
+
+	10) comando table (si intende comandi per la generazione automatica di tabelle,
+      indici, ed in generale database dallo script?)
+
+  11) MACRO commands
+
+
+____________________________________________________________________
+
+Pensare alla opportunita` di usare i TQR per i dati del CGIResolver.
+____________________________________________________________________
+
+Help format per i comandi generato da Tannit; 
+
+In piu`:
+ serializzazione/deserializzazione di un tqr contenente l'help dei 
+ comandi, che si puo` richiedere a Tannit usando help=nome_comando
+ sulla stringa di get.
+____________________________________________________________________
+
+exeq: aggiungere gestione 3 parametri opz per fare query su un
+      altro dsn (se non presenti si usa il default, cioe` quello
+	  che viene letto da prm)
+____________________________________________________________________
+
+// fabio-->patch 30/05/2001
+attenzione questo è il famoso problema delle free
+attualmente così patchato fino a quando non si presenterà in 
+altra forma. (collegato al noto problema dell'eccezioni non gestite scaturite 
+nel corso dell'unwinding dello stack)
