@@ -21,66 +21,64 @@ Search By Author name, results will be returned by book title.<br/>
  
 <script type="text/javascript">
  
-var localStorageRow = localStorage.getItem(localStorage.key(i));
-var author_query    = getUrlVars()["txtA"];
- 
-if (typeof(author_query) == "undefined" || author_query === "") {
-alert('a nelloooo');
+  var localStorageRow = localStorage.getItem(localStorage.key(i));
+  var author_query    = getUrlVars()["txtA"];
+   
+  if (typeof(author_query) == "undefined" || author_query === "") {
 
-} else {
+  } else {
 
-  for (var i=0 ; i<localStorage.length;  i++) {
-    var localStorageRow = localStorage.getItem(localStorage.key(i));
- 
-    if (window.DOMParser) {
-      parser=new DOMParser();
-      xmlDoc=parser.parseFromString(localStorageRow,"text/xml");
-    
-    } else // Internet Explorer {
-      xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
-      xmlDoc.async=false;
-      xmlDoc.loadXML(localStorageRow);
-    } 
- 
-    for (var k=0; k<xmlDoc.firstChild.childNodes.length; k++) {
+    for (var i=0 ; i<localStorage.length;  i++) {
+      var localStorageRow = localStorage.getItem(localStorage.key(i));
+   
+      if (window.DOMParser) {
+        parser=new DOMParser();
+        xmlDoc=parser.parseFromString(localStorageRow,"text/xml");
       
-      if (xmlDoc.firstChild.childNodes[k].nodeName === "author") {
- 
-        var auth_row = xmlDoc.firstChild.childNodes[k].textContent;			
-        var authMatch = auth_row.match(new RegExp(author_query, "i"));
-      
-        if (authMatch) {
-          //CANNOT USE XPATH(a lot of browsers dont support this) 
-          //YOU HAVE TO LOOP THOUGH ELEMENTS (again) TO GET TITLE
-          /*
-          var nodesSnapshot = document.evaluate('//title', xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null );  
-          for ( var q=0 ; q < nodesSnapshot.snapshotLength; q++ )  
-          {  
-          document.getElementById("results_ID").innerHTML += nodesSnapshot.snapshotItem(q).textContent+"<br/>";
-          }  
-          */
- 
-          for (var p=0; p<xmlDoc.firstChild.childNodes.length; p++) {
+      } else {  // Internet Explorer
+        xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async=false;
+        xmlDoc.loadXML(localStorageRow);
+      } 
+   
+      for (var k=0; k<xmlDoc.firstChild.childNodes.length; k++) {
+        
+        if (xmlDoc.firstChild.childNodes[k].nodeName === "author") {
+   
+          var auth_row = xmlDoc.firstChild.childNodes[k].textContent;			
+          var authMatch = auth_row.match(new RegExp(author_query, "i"));
+        
+          if (authMatch) {
+            //CANNOT USE XPATH(a lot of browsers dont support this) 
+            //YOU HAVE TO LOOP THOUGH ELEMENTS (again) TO GET TITLE
+            //*
+            var nodesSnapshot = document.evaluate('//title', xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null );  
+            for ( var q=0 ; q < nodesSnapshot.snapshotLength; q++ )  
+            {  
+            document.getElementById("results_ID").innerHTML += nodesSnapshot.snapshotItem(q).textContent+"<br/>";
+            }  
+            //*/
             
-            if ( xmlDoc.firstChild.childNodes[p].nodeName == 'title' ) {
-              document.getElementById("results_ID").innerHTML += xmlDoc.firstChild.childNodes[p].textContent+"<br/>";
+            /*
+            for (var p=0; p<xmlDoc.firstChild.childNodes.length; p++) {
+              
+              if ( xmlDoc.firstChild.childNodes[p].nodeName == 'title' ) {
+                document.getElementById("results_ID").innerHTML += xmlDoc.firstChild.childNodes[p].textContent+"<br/>";
+              }
             }
+            */
           }
- 
         }
       }
     }
   }
-}
- 
-//GET URL VARS function
-function getUrlVars() {
-  var vars = {};
-  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-  vars[key] = value;
-});
-return vars;
-}
+   
+  //GET URL VARS function
+  function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace('/[?&]+([^=&]+)=([^&]*)/gi', function(m,key,value) {vars[key] = value;});
+  return vars;
+  }
  
 </script>
  
