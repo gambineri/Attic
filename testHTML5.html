@@ -41,9 +41,18 @@
       if (xmlDoc) {
 //          window.alert(xmlDoc.documentElement.nodeName);
 
-          var firstAuthor = xmlDoc.evaluate('//author', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null);
+          var authors = xmlDoc.evaluate('//author', xmlDoc, null, XPathResult.ANY_TYPE, null);
 
-          alert('The first author found is ' + firstAuthor.singleNodeValue);
+          var result = authors.iterateNext();
+
+          var ret;
+          while (result)
+          {
+            ret += result.childNodes[0].nodeValue;
+            result=authors.iterateNext();
+          }
+
+          alert(ret);
 
       }
     };
