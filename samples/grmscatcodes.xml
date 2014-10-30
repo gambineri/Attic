@@ -1,0 +1,6182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<?xml-stylesheet type="text/xsl" href="grmscatcodes.xsl"?>
+
+<GRMSCategoryCodes>
+	<GRMSCategory>
+		<segment/>
+		<family>10100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.10100000</category>
+		<description>Live animals</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10101500</class>
+		<commodity/>
+		<category/>
+		<description>Livestock</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101507</commodity>
+		<category>502.0.10101507</category>
+		<description>Sheep</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101508</commodity>
+		<category>502.0.10101508</category>
+		<description>Goats</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101511</commodity>
+		<category>502.0.10101511</category>
+		<description>Swine</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101512</commodity>
+		<category>502.0.10101512</category>
+		<description>Rabbits</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101516</commodity>
+		<category>502.0.10101516</category>
+		<description>Cattle (including cows and bulls)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101518</commodity>
+		<category>502.0.10101518</category>
+		<description>Alpaca</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10101600</class>
+		<commodity/>
+		<category/>
+		<description>Birds and fowl</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101601</commodity>
+		<category>502.0.10101601</category>
+		<description>Live chickens</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101602</commodity>
+		<category>502.0.10101602</category>
+		<description>Live ducks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101603</commodity>
+		<category>502.0.10101603</category>
+		<description>Live turkeys</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101604</commodity>
+		<category>502.0.10101604</category>
+		<description>Live geese</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101607</commodity>
+		<category>502.0.10101607</category>
+		<description>Live guinea fowl</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10101700</class>
+		<commodity/>
+		<category>502.0.10101700</category>
+		<description>Live fish</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10101903</commodity>
+		<category>502.0.10101903</category>
+		<description>Bees</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>10120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Animal feed</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10121500</class>
+		<commodity/>
+		<category>502.0.10121500</category>
+		<description>Livestock (including bovine) feed</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10121600</class>
+		<commodity/>
+		<category>502.0.10121600</category>
+		<description>Poultry, bird and fowl food</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10121700</class>
+		<commodity/>
+		<category>502.0.10121700</category>
+		<description>Fish food</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>10130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.10130000</category>
+		<description>Animal containment and habitats (including sheds, materials for enclosures)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10131600</class>
+		<commodity/>
+		<category/>
+		<description>Animal containment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10131601</commodity>
+		<category>502.0.10131601</category>
+		<description>Animal cages or its accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>10150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Seeds and bulbs and seedlings and cuttings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10151500</class>
+		<commodity/>
+		<category>502.0.10151500</category>
+		<description>Vegetable seeds and seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151501</commodity>
+		<category>502.0.10151501</category>
+		<description>Bean seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151502</commodity>
+		<category>502.0.10151502</category>
+		<description>Carrot seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151503</commodity>
+		<category>502.0.10151503</category>
+		<description>Celery seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151504</commodity>
+		<category>502.0.10151504</category>
+		<description>Chili seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151505</commodity>
+		<category>502.0.10151505</category>
+		<description>Courgette (zucchini) seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151506</commodity>
+		<category>502.0.10151506</category>
+		<description>Pea seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151507</commodity>
+		<category>502.0.10151507</category>
+		<description>Cucumber seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151508</commodity>
+		<category>502.0.10151508</category>
+		<description>Eggplant (aubergine) seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151509</commodity>
+		<category>502.0.10151509</category>
+		<description>Endive seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151510</commodity>
+		<category>502.0.10151510</category>
+		<description>Garlic seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151511</commodity>
+		<category>502.0.10151511</category>
+		<description>Leek seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151512</commodity>
+		<category>502.0.10151512</category>
+		<description>Lettuce seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151513</commodity>
+		<category>502.0.10151513</category>
+		<description>Corn seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151514</commodity>
+		<category>502.0.10151514</category>
+		<description>Melon seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151515</commodity>
+		<category>502.0.10151515</category>
+		<description>Onion seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151516</commodity>
+		<category>502.0.10151516</category>
+		<description>Soya seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151517</commodity>
+		<category>502.0.10151517</category>
+		<description>Spinach seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151518</commodity>
+		<category>502.0.10151518</category>
+		<description>Tomato seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151519</commodity>
+		<category>502.0.10151519</category>
+		<description>Turnip seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151520</commodity>
+		<category>502.0.10151520</category>
+		<description>Chard seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151521</commodity>
+		<category>502.0.10151521</category>
+		<description>Sweet pepper seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151522</commodity>
+		<category>502.0.10151522</category>
+		<description>Beet seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151523</commodity>
+		<category>502.0.10151523</category>
+		<description>Cauliflower seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151524</commodity>
+		<category>502.0.10151524</category>
+		<description>Parsley seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151525</commodity>
+		<category>502.0.10151525</category>
+		<description>Broccoli seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151526</commodity>
+		<category>502.0.10151526</category>
+		<description>Cabbage seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151527</commodity>
+		<category>502.0.10151527</category>
+		<description>Potato seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151528</commodity>
+		<category>502.0.10151528</category>
+		<description>Sweet potato seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151529</commodity>
+		<category>502.0.10151529</category>
+		<description>Pumpkin seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151530</commodity>
+		<category>502.0.10151530</category>
+		<description>Radish seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151531</commodity>
+		<category>502.0.10151531</category>
+		<description>Brussel sprout seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151532</commodity>
+		<category>502.0.10151532</category>
+		<description>Squash seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151533</commodity>
+		<category>502.0.10151533</category>
+		<description>Okra seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151534</commodity>
+		<category>502.0.10151534</category>
+		<description>Cantaloupe seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151535</commodity>
+		<category>502.0.10151535</category>
+		<description>Groundnut (Peanut) seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151536</commodity>
+		<category>502.0.10151536</category>
+		<description>Caigua seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151537</commodity>
+		<category>502.0.10151537</category>
+		<description>Asparagus seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151538</commodity>
+		<category>502.0.10151538</category>
+		<description>Chickpea seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151539</commodity>
+		<category>502.0.10151539</category>
+		<description>Fava or broad bean seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151540</commodity>
+		<category>502.0.10151540</category>
+		<description>Centrocema or butterfly pea seed or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151541</commodity>
+		<category>502.0.10151541</category>
+		<description>Nettle seed or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10151600</class>
+		<commodity/>
+		<category>502.0.10151600</category>
+		<description>Cereal (crop) seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151601</commodity>
+		<category>502.0.10151601</category>
+		<description>Wheat seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151603</commodity>
+		<category>502.0.10151603</category>
+		<description>Barley seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151604</commodity>
+		<category>502.0.10151604</category>
+		<description>Millet seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151606</commodity>
+		<category>502.0.10151606</category>
+		<description>Sesame seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151609</commodity>
+		<category>502.0.10151609</category>
+		<description>Maize seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151611</commodity>
+		<category>502.0.10151611</category>
+		<description>Sorghum seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151613</commodity>
+		<category>502.0.10151613</category>
+		<description>Quinoa seeds and seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151614</commodity>
+		<category>502.0.10151614</category>
+		<description>Rice seeds and seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10151700</class>
+		<commodity/>
+		<category>502.0.10151700</category>
+		<description>Grass and forage seeds and seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10151800</class>
+		<commodity/>
+		<category>502.0.10151800</category>
+		<description>Spice crop seeds and seedlings (including mushrooms)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10151900</class>
+		<commodity/>
+		<category>502.0.10151900</category>
+		<description>Flower seeds and bulbs and seedlings and cuttings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10151904</commodity>
+		<category>502.0.10151904</category>
+		<description>Sunflower seeds</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10152000</class>
+		<commodity/>
+		<category>502.0.10152000</category>
+		<description>Tree and shrub seeds and cuttings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10152001</commodity>
+		<category>502.0.10152001</category>
+		<description>Fruit tree seeds or cuttings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10152003</commodity>
+		<category>502.0.10152003</category>
+		<description>Nut tree seeds or cuttings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10152057</commodity>
+		<category>502.0.10152057</category>
+		<description>Cassava seed or cutting</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10152200</class>
+		<commodity/>
+		<category/>
+		<description>Fibrous crop seeds and seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10152201</commodity>
+		<category>502.0.10152201</category>
+		<description>Cotton seeds or seedlings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>10160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Floriculture and silviculture products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10161500</class>
+		<commodity/>
+		<category>502.0.10161500</category>
+		<description>Trees and shrubs</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>10170000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Fertilizers and plant nutrients and herbicides</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10171500</class>
+		<commodity/>
+		<category>502.0.10171500</category>
+		<description>Organic fertilizers and plant nutrients</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171501</commodity>
+		<category>502.0.10171501</category>
+		<description>Manure or guano</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171502</commodity>
+		<category>502.0.10171502</category>
+		<description>Plant hormones</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171504</commodity>
+		<category>502.0.10171504</category>
+		<description>Compost</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171506</commodity>
+		<category>502.0.10171506</category>
+		<description>Humus</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171507</commodity>
+		<category>502.0.10171507</category>
+		<description>Urea fertilizer</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10171600</class>
+		<commodity/>
+		<category>502.0.10171600</category>
+		<description>Chemical fertilizers and plant nutrients</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171601</commodity>
+		<category>502.0.10171601</category>
+		<description>Ammonium nitrate fertilizer</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171602</commodity>
+		<category>502.0.10171602</category>
+		<description>Potassic fertilizer</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171603</commodity>
+		<category>502.0.10171603</category>
+		<description>Phosphatic fertilizer</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171604</commodity>
+		<category>502.0.10171604</category>
+		<description>Sulphuric fertilizer</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171605</commodity>
+		<category>502.0.10171605</category>
+		<description>Nitrogen Phosphorous Potassium Mixtures NPK</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171611</commodity>
+		<category>502.0.10171611</category>
+		<description>Calcium (limestone) fertilizer</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171612</commodity>
+		<category>502.0.10171612</category>
+		<description>Superphosphate fertilizer (including TSP)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171613</commodity>
+		<category>502.0.10171613</category>
+		<description>Ammonium nitrate mixed with calcium carbonate fertilizer (CAN)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171614</commodity>
+		<category>502.0.10171614</category>
+		<description>Potassium chloride for agricultural use (including MoP)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171615</commodity>
+		<category>502.0.10171615</category>
+		<description>Potassium sulphate (including SoP)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171616</commodity>
+		<category>502.0.10171616</category>
+		<description>Diammonium hydrogenorthophosphate fertilizer (DAP)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10171700</class>
+		<commodity/>
+		<category>502.0.10171700</category>
+		<description>Herbicides</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171702</commodity>
+		<category>502.0.10171702</category>
+		<description>Fungicides</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10171703</commodity>
+		<category>502.0.10171703</category>
+		<description>Propanil</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>10190000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Pest control products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10191500</class>
+		<commodity/>
+		<category>502.0.10191500</category>
+		<description>Pesticides and pest repellents</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191509</commodity>
+		<category>502.0.10191509</category>
+		<description>Insecticides</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191512</commodity>
+		<category>502.0.10191512</category>
+		<description>Cypermethrin</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191513</commodity>
+		<category>502.0.10191513</category>
+		<description>Deltamethrin</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191514</commodity>
+		<category>502.0.10191514</category>
+		<description>Fenitrothion</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191515</commodity>
+		<category>502.0.10191515</category>
+		<description>Chlorphyriphos</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191516</commodity>
+		<category>502.0.10191516</category>
+		<description>Malathion</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191517</commodity>
+		<category>502.0.10191517</category>
+		<description>Diazinon</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>10191518</commodity>
+		<category>502.0.10191518</category>
+		<description>Carbaryl</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>10191700</class>
+		<commodity/>
+		<category>502.0.10191700</category>
+		<description>Pest control devices and traps</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>11000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Mineral and Textile and Inedible Plant and Animal Materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>11100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Minerals and ores and metals</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>11101800</class>
+		<commodity/>
+		<category>502.0.11101800</category>
+		<description>Precious metals</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>11110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Earth and stone</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>11111500</class>
+		<commodity/>
+		<category>502.0.11111500</category>
+		<description>Dirt and soil</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>11111600</class>
+		<commodity/>
+		<category>502.0.11111600</category>
+		<description>Stone</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>11111700</class>
+		<commodity/>
+		<category>502.0.11111700</category>
+		<description>Sand</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>11120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Non edible plant and forestry products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>11121600</class>
+		<commodity/>
+		<category>502.0.11121600</category>
+		<description>Wood</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>11130000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Non edible animal products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>11131600</class>
+		<commodity/>
+		<category/>
+		<description>Other animal products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>11131602</commodity>
+		<category>502.0.11131602</category>
+		<description>Semen</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>11131607</commodity>
+		<category>502.0.11131607</category>
+		<description>Embryos</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>12000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.12000000</category>
+		<description>Chemicals including Bio Chemicals and Gas Materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>13000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Resin and Rosin and Rubber and Foam and Film and Elastomeric Materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>13110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Resins and rosins and other resin derived materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>13111200</class>
+		<commodity/>
+		<category>502.0.13111200</category>
+		<description>Plastic films (including plastic sheeting)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>14000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Paper Materials and Products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>14110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Paper products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>14111500</class>
+		<commodity/>
+		<category>502.0.14111500</category>
+		<description>Printing and writing paper</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>14111700</class>
+		<commodity/>
+		<category>502.0.14111700</category>
+		<description>Personal paper products (tissues and toilet paper)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>14120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Industrial use papers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>14121500</class>
+		<commodity/>
+		<category>502.0.14121500</category>
+		<description>Paperboard and packaging papers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>15000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Fuels and Fuel Additives and Lubricants and Anti corrosive Materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>15100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Fuels</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>15101500</class>
+		<commodity/>
+		<category/>
+		<description>Petroleum and distillates</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>15101505</commodity>
+		<category>502.0.15101505</category>
+		<description>Diesel fuel for vehicles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>15101506</commodity>
+		<category>502.0.15101506</category>
+		<description>Gasoline or Petrol for vehicles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>15101513</commodity>
+		<category>502.0.15101513</category>
+		<description>Diesel fuel for non-vehicle use (generators, pumps, etc)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>15120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.15120000</category>
+		<description>Lubricants and oils and greases and anti corrosives</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>20000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Mining and Well Drilling Machinery and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>20110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Well drilling and operation equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>20111500</class>
+		<commodity/>
+		<category/>
+		<description>Drilling and exploration equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>20111504</commodity>
+		<category>502.0.20111504</category>
+		<description>Water well drilling equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>21000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Farming and Fishing and Forestry and Wildlife Machinery and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>21100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Agricultural and forestry and landscape machinery and equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21101500</class>
+		<commodity/>
+		<category>502.0.21101500</category>
+		<description>Agricultural machinery for soil preparation (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101511</commodity>
+		<category>502.0.21101511</category>
+		<description>Irrigation equipment (excluding pumps)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101517</commodity>
+		<category>502.0.21101517</category>
+		<description>Rotary tiller or power tiller</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21101600</class>
+		<commodity/>
+		<category>502.0.21101600</category>
+		<description>Agricultural machinery for planting and seeding (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21101700</class>
+		<commodity/>
+		<category>502.0.21101700</category>
+		<description>Agricultural machinery for harvesting (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101701</commodity>
+		<category>502.0.21101701</category>
+		<description>Mowers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101703</commodity>
+		<category>502.0.21101703</category>
+		<description>Harvesters</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101705</commodity>
+		<category>502.0.21101705</category>
+		<description>Threshing machines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21101800</class>
+		<commodity/>
+		<category>502.0.21101800</category>
+		<description>Dispersing and spraying appliances for agriculture (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101801</commodity>
+		<category>502.0.21101801</category>
+		<description>Sprayers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101802</commodity>
+		<category>502.0.21101802</category>
+		<description>Dusters</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21101900</class>
+		<commodity/>
+		<category>502.0.21101900</category>
+		<description>Poultry and livestock equipment (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101901</commodity>
+		<category>502.0.21101901</category>
+		<description>Milking machines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101903</commodity>
+		<category>502.0.21101903</category>
+		<description>Incubators or brooders for poultry</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101905</commodity>
+		<category>502.0.21101905</category>
+		<description>Livestock identification equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101906</commodity>
+		<category>502.0.21101906</category>
+		<description>Egg inspection or collecting equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21101916</commodity>
+		<category>502.0.21101916</category>
+		<description>Milking machine parts and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21102000</class>
+		<commodity/>
+		<category>502.0.21102000</category>
+		<description>Agricultural machinery for cleaning and sorting and grading (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21102100</class>
+		<commodity/>
+		<category>502.0.21102100</category>
+		<description>Agricultural processing machinery and equipment (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21102200</class>
+		<commodity/>
+		<category>502.0.21102200</category>
+		<description>Forestry machinery and equipment (including spare parts)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21102300</class>
+		<commodity/>
+		<category>502.0.21102300</category>
+		<description>Greenhouse equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21102305</commodity>
+		<category>502.0.21102305</category>
+		<description>Agricultural sun shade material</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21102400</class>
+		<commodity/>
+		<category/>
+		<description>Insect equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21102401</commodity>
+		<category>502.0.21102401</category>
+		<description>Beekeeping equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>21110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Fishing and aquaculture equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21111500</class>
+		<commodity/>
+		<category>502.0.21111500</category>
+		<description>Commercial fishing equipment (not including boats)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21111501</commodity>
+		<category>502.0.21111501</category>
+		<description>Commercial fish hooks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>21111504</commodity>
+		<category>502.0.21111504</category>
+		<description>Commercial fishing nets</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>21111600</class>
+		<commodity/>
+		<category>502.0.21111600</category>
+		<description>Aquaculture equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>23000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Industrial Manufacturing and Processing Machinery and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>23150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Industrial process machinery and equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>23152900</class>
+		<commodity/>
+		<category>502.0.23152900</category>
+		<description>Packaging machinery (including seed repacking, sewing)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>23180000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.23180000</category>
+		<description>Industrial food and beverage equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>23181500</class>
+		<commodity/>
+		<category/>
+		<description>Food preparation machinery</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181501</commodity>
+		<category>502.0.23181501</category>
+		<description>Filling machinery, food processing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181502</commodity>
+		<category>502.0.23181502</category>
+		<description>Milling machinery, food processing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181507</commodity>
+		<category>502.0.23181507</category>
+		<description>Crushing machinery, food processing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181514</commodity>
+		<category>502.0.23181514</category>
+		<description>Cheese making machine</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181519</commodity>
+		<category>502.0.23181519</category>
+		<description>Pasteurizing machine</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181522</commodity>
+		<category>502.0.23181522</category>
+		<description>Seed or nut sheller</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>23181523</commodity>
+		<category>502.0.23181523</category>
+		<description>Slaughterhouse or abattoir equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>24000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Material Handling and Conditioning and Storage Machinery and their Accessories and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>24100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.24100000</category>
+		<description>Material handling machinery and equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24101600</class>
+		<commodity/>
+		<category/>
+		<description>Lifting equipment and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24101603</commodity>
+		<category>502.0.24101603</category>
+		<description>Forklifts</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24101608</commodity>
+		<category>502.0.24101608</category>
+		<description>Winches</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>24110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Containers and storage</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24111500</class>
+		<commodity/>
+		<category>502.0.24111500</category>
+		<description>Plastic and paper bags</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24111800</class>
+		<commodity/>
+		<category/>
+		<description>Tanks and cylinders and their accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24111802</commodity>
+		<category>502.0.24111802</category>
+		<description>Air or gas tanks or cylinders</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24111808</commodity>
+		<category>502.0.24111808</category>
+		<description>Fuel storage tanks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24111810</commodity>
+		<category>502.0.24111810</category>
+		<description>Water storage tanks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112000</class>
+		<commodity/>
+		<category>502.0.24112000</category>
+		<description>Bins and baskets</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112100</class>
+		<commodity/>
+		<category>502.0.24112100</category>
+		<description>Casks and barrels and drums</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112200</class>
+		<commodity/>
+		<category>502.0.24112200</category>
+		<description>Cans and pails (including jerrycans)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112400</class>
+		<commodity/>
+		<category>502.0.24112400</category>
+		<description>Storage chests and cabinets and trunks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112600</class>
+		<commodity/>
+		<category>502.0.24112600</category>
+		<description>Liquid containers (jars and jugs)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112700</class>
+		<commodity/>
+		<category>502.0.24112700</category>
+		<description>Pallets</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112800</class>
+		<commodity/>
+		<category>502.0.24112800</category>
+		<description>Freight containers (not freight charges)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24112900</class>
+		<commodity/>
+		<category>502.0.24112900</category>
+		<description>Crates</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24113100</class>
+		<commodity/>
+		<category>502.0.24113100</category>
+		<description>Boxes</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24113104</commodity>
+		<category>502.0.24113104</category>
+		<description>Cold storage box</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24113108</commodity>
+		<category>502.0.24113108</category>
+		<description>Insulated boxes for vaccines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>24120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Packaging materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24121500</class>
+		<commodity/>
+		<category>502.0.24121500</category>
+		<description>Packaging boxes and bags and pouches</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24121512</commodity>
+		<category>502.0.24121512</category>
+		<description>Cold pack or ice brick</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>24130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.24130000</category>
+		<description>Industrial refrigeration (including cold storage room)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24131500</class>
+		<commodity/>
+		<category>502.0.24131500</category>
+		<description>Industrial refrigerators</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24131600</class>
+		<commodity/>
+		<category>502.0.24131600</category>
+		<description>Industrial freezers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24131900</class>
+		<commodity/>
+		<category>502.0.24131900</category>
+		<description>Ice makers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>24140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Packing supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>24150000</class>
+		<commodity/>
+		<category/>
+		<description>Tag wire</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>24141506</commodity>
+		<category>502.0.24141506</category>
+		<description>Tarpaulins</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>25000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Commercial and Military and Private Vehicles and their Accessories and Components</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>25100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Motor vehicles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25101500</class>
+		<commodity/>
+		<category/>
+		<description>Passenger motor vehicles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101501</commodity>
+		<category>502.0.25101501</category>
+		<description>Minibuses</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101502</commodity>
+		<category>502.0.25101502</category>
+		<description>Busses</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101503</commodity>
+		<category>502.0.25101503</category>
+		<description>Automobiles or cars</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101504</commodity>
+		<category>502.0.25101504</category>
+		<description>Station wagons</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101507</commodity>
+		<category>502.0.25101507</category>
+		<description>Light trucks or sport utility vehicles (SUV)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101509</commodity>
+		<category>502.0.25101509</category>
+		<description>Electrically powered vehicle</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101510</commodity>
+		<category>502.0.25101510</category>
+		<description>Armored motor vehicle</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25101600</class>
+		<commodity/>
+		<category/>
+		<description>Product and material transport vehicles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101601</commodity>
+		<category>502.0.25101601</category>
+		<description>Dump trucks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101611</commodity>
+		<category>502.0.25101611</category>
+		<description>Cargo trucks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25101800</class>
+		<commodity/>
+		<category/>
+		<description>Motorized cycles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101801</commodity>
+		<category>502.0.25101801</category>
+		<description>Motorcycles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25101900</class>
+		<commodity/>
+		<category>502.0.25101900</category>
+		<description>Specialized trucks and vehicles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101901</commodity>
+		<category>502.0.25101901</category>
+		<description>Agricultural tractors</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25101920</commodity>
+		<category>502.0.25101920</category>
+		<description>Tank trucks</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25102100</class>
+		<commodity/>
+		<category>502.0.25102100</category>
+		<description>Truck tractors</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>25110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Marine transport</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25111500</class>
+		<commodity/>
+		<category/>
+		<description>Commercial marine craft</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>25111502</commodity>
+		<category>502.0.25111502</category>
+		<description>Fishing boats</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25111900</class>
+		<commodity/>
+		<category>502.0.25111900</category>
+		<description>Marine craft parts and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>25160000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.25160000</category>
+		<description>Non motorized cycles</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>25170000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.25170000</category>
+		<description>Transportation components and systems (vehicle spare parts and accessories)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25172500</class>
+		<commodity/>
+		<category>502.0.25172500</category>
+		<description>Tires and tire tubes</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>25180000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Vehicle bodies and trailers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>25181700</class>
+		<commodity/>
+		<category>502.0.25181700</category>
+		<description>Product and material trailers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>26000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Power Generation and Distribution Machinery and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>26100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Power sources</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>26101400</class>
+		<commodity/>
+		<category>502.0.26101400</category>
+		<description>Motor or generator components (parts and accessories)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>26101500</class>
+		<commodity/>
+		<category>502.0.26101500</category>
+		<description>Engines (including outboard motors)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>26110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Batteries and generators and kinetic power transmission</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>26111600</class>
+		<commodity/>
+		<category>502.0.26111600</category>
+		<description>Power generators</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>26111607</commodity>
+		<category>502.0.26111607</category>
+		<description>Solar generators</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>26111700</class>
+		<commodity/>
+		<category>502.0.26111700</category>
+		<description>Batteries and cells and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>26120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.26120000</category>
+		<description>Electrical wire and cable and harness</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>27000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Tools and General Machinery</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>27110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.27110000</category>
+		<description>Hand tools</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>27112000</class>
+		<commodity/>
+		<category>502.0.27112000</category>
+		<description>Agriculture, forestry and garden handtools and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>27112700</class>
+		<commodity/>
+		<category>502.0.27112700</category>
+		<description>Power tools</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>30000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.30000000</category>
+		<description>Building and Construction Materials and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Structural components and basic shapes</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>30102900</class>
+		<commodity/>
+		<category>502.0.30102900</category>
+		<description>Posts (including wooden and metal poles)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.30110000</category>
+		<description>Concrete and cement and plaster</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.30130000</category>
+		<description>Structural building products (bricks, stone blocks, etc.)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Exterior finishing materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>30152000</class>
+		<commodity/>
+		<category>502.0.30152000</category>
+		<description>Fencing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Interior finishing materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>30161700</class>
+		<commodity/>
+		<category>502.0.30161700</category>
+		<description>Flooring (including carpeting and tile)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>30161800</class>
+		<commodity/>
+		<category>502.0.30161800</category>
+		<description>Cabinetry (fixed structures)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30170000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.30170000</category>
+		<description>Doors and windows and glass</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30180000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.30180000</category>
+		<description>Plumbing fixtures</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30190000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Construction and maintenance support equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>30191500</class>
+		<commodity/>
+		<category>502.0.30191500</category>
+		<description>Ladders and scaffolding</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>30260000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.30260000</category>
+		<description>Structural materials (steel bars, wooden structural material, metal sheeting, etc.)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>30265800</class>
+		<commodity/>
+		<category/>
+		<description>Plastic bars and sheets</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>30265802</commodity>
+		<category>502.0.30265802</category>
+		<description>Plastic sheet (rigid)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>31000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Manufacturing Components and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>31150000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.31150000</category>
+		<description>Rope and chain and cable and wire and strap</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>31152000</class>
+		<commodity/>
+		<category>502.0.31152000</category>
+		<description>Security wire</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>31160000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.31160000</category>
+		<description>Hardware (for constructing)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>31200000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.31200000</category>
+		<description>Adhesives and sealants</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>31201500</class>
+		<commodity/>
+		<category>502.0.31201500</category>
+		<description>Tape (for maintenance and repair)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>31210000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.31210000</category>
+		<description>Paints and primers and finishes</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>39000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Electrical Systems and Lighting and Components and Accessories and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>39100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.39100000</category>
+		<description>Lamps and lightbulbs and lamp components</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>39110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.39110000</category>
+		<description>Lighting Fixtures and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>39120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.39120000</category>
+		<description>Electrical equipment and components and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>39121000</class>
+		<commodity/>
+		<category>502.0.39121000</category>
+		<description>Power conditioning equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>39121011</commodity>
+		<category>502.0.39121011</category>
+		<description>Uninterruptible power supplies (UPS)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>39121600</class>
+		<commodity/>
+		<category/>
+		<description>Circuit protection devices and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>39121621</commodity>
+		<category>502.0.39121621</category>
+		<description>Lightning protection apparatus and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>40000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Distribution and Conditioning Systems and Equipment and Components</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>40100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Heating and ventilation and air circulation</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>40101500</class>
+		<commodity/>
+		<category>502.0.40101500</category>
+		<description>Ventilation</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>40101700</class>
+		<commodity/>
+		<category>502.0.40101700</category>
+		<description>Cooling equipment (including air conditioners) and parts and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>40101701</commodity>
+		<category>502.0.40101701</category>
+		<description>Air conditioners</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>40101800</class>
+		<commodity/>
+		<category>502.0.40101800</category>
+		<description>Heating equipment and parts and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>40150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Industrial pumps and compressors</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>40151500</class>
+		<commodity/>
+		<category>502.0.40151500</category>
+		<description>Pumps</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>40151503</commodity>
+		<category>502.0.40151503</category>
+		<description>Centrifugal pumps</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>40151506</commodity>
+		<category>502.0.40151506</category>
+		<description>Manual (hand and treadle) pumps</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>40151507</commodity>
+		<category>502.0.40151507</category>
+		<description>Irrigation pumps</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>40151510</commodity>
+		<category>502.0.40151510</category>
+		<description>Water pumps</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>40151600</class>
+		<commodity/>
+		<category>502.0.40151600</category>
+		<description>Compressors</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>40151700</class>
+		<commodity/>
+		<category>502.0.40151700</category>
+		<description>Pump parts and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>40170000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.40170000</category>
+		<description>Pipe piping and pipe fittings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>41000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Laboratory and Measuring and Observing and Testing Equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>41100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.41100000</category>
+		<description>Laboratory and scientific equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41101500</class>
+		<commodity/>
+		<category>502.0.41101500</category>
+		<description>Laboratory blending and dispersing and homogenizing equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41101700</class>
+		<commodity/>
+		<category>502.0.41101700</category>
+		<description>Laboratory boring and grinding and cutting and crushing and pressing equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41102400</class>
+		<commodity/>
+		<category>502.0.41102400</category>
+		<description>Laboratory heating and drying equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41102500</class>
+		<commodity/>
+		<category>502.0.41102500</category>
+		<description>Laboratory entomological equipment and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41103000</class>
+		<commodity/>
+		<category>502.0.41103000</category>
+		<description>Laboratory cooling equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41103200</class>
+		<commodity/>
+		<category>502.0.41103200</category>
+		<description>Laboratory washing and cleaning equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41103300</class>
+		<commodity/>
+		<category>502.0.41103300</category>
+		<description>Vacuum and other fluid mechanics equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41103500</class>
+		<commodity/>
+		<category/>
+		<description>Laboratory enclosures and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41103502</commodity>
+		<category>502.0.41103502</category>
+		<description>Fume hoods or cupboards</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41103900</class>
+		<commodity/>
+		<category>502.0.41103900</category>
+		<description>Laboratory centrifuges</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41103913</commodity>
+		<category>502.0.41103913</category>
+		<description>Laboratory centrifuge accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41104200</class>
+		<commodity/>
+		<category>502.0.41104200</category>
+		<description>Laboratory water purification and testing equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41104400</class>
+		<commodity/>
+		<category>502.0.41104400</category>
+		<description>Laboratory incubating equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41104403</commodity>
+		<category>502.0.41104403</category>
+		<description>Tissue culture incubators</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41104700</class>
+		<commodity/>
+		<category/>
+		<description>Laboratory freeze dryers and lyopholizers and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41104701</commodity>
+		<category>502.0.41104701</category>
+		<description>Freeze dryers or lyopholizers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41104800</class>
+		<commodity/>
+		<category>502.0.41104800</category>
+		<description>Laboratory decanting and distilling and evaporating and extracting equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41105300</class>
+		<commodity/>
+		<category>502.0.41105300</category>
+		<description>Laboratory electrophoresis and blotting system and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41105500</class>
+		<commodity/>
+		<category>502.0.41105500</category>
+		<description>Nucleic acid (DNA and RNA) extraction and purification and quantitation kits and components</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41106300</class>
+		<commodity/>
+		<category>502.0.41106300</category>
+		<description>Polymerase chain reaction PCR and reverse transcriptase polymerase chain reaction RT PCR products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>41110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.41110000</category>
+		<description>Measuring and observing and testing instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41111500</class>
+		<commodity/>
+		<category>502.0.41111500</category>
+		<description>Weight measuring instruments (scales and balances)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41111600</class>
+		<commodity/>
+		<category>502.0.41111600</category>
+		<description>Length and thickness and distance measuring instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41111700</class>
+		<commodity/>
+		<category>502.0.41111700</category>
+		<description>Viewing and observing instruments (including microscopes) and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41112200</class>
+		<commodity/>
+		<category>502.0.41112200</category>
+		<description>Temperature and heat measuring instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41112300</class>
+		<commodity/>
+		<category>502.0.41112300</category>
+		<description>Humidity and moisture measuring instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41112400</class>
+		<commodity/>
+		<category>502.0.41112400</category>
+		<description>Pressure measuring and control instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41112500</class>
+		<commodity/>
+		<category>502.0.41112500</category>
+		<description>Liquid and gas flow measuring and observing instruments (incl. water flow meters)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41112700</class>
+		<commodity/>
+		<category>502.0.41112700</category>
+		<description>Laboratory seed and feed testing equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41112900</class>
+		<commodity/>
+		<category>502.0.41112900</category>
+		<description>Navigational equipment and instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41112901</commodity>
+		<category>502.0.41112901</category>
+		<description>Direction finding compasses</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41113000</class>
+		<commodity/>
+		<category>502.0.41113000</category>
+		<description>Chemical evaluation instruments and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41113024</commodity>
+		<category>502.0.41113024</category>
+		<description>Hydrometers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41113600</class>
+		<commodity/>
+		<category>502.0.41113600</category>
+		<description>Electrical measuring and testing equipment and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41113800</class>
+		<commodity/>
+		<category>502.0.41113800</category>
+		<description>Geophysical and geotechnical instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41113900</class>
+		<commodity/>
+		<category>502.0.41113900</category>
+		<description>Soil measuring equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41114200</class>
+		<commodity/>
+		<category>502.0.41114200</category>
+		<description>Land surveying instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41114300</class>
+		<commodity/>
+		<category>502.0.41114300</category>
+		<description>Hydrological instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41114400</class>
+		<commodity/>
+		<category>502.0.41114400</category>
+		<description>Meteorological instruments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41114410</commodity>
+		<category>502.0.41114410</category>
+		<description>Weather stations</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41115300</class>
+		<commodity/>
+		<category/>
+		<description>Light and wave generating and measuring equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41115316</commodity>
+		<category>502.0.41115316</category>
+		<description>Reflectometers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41115700</class>
+		<commodity/>
+		<category>502.0.41115700</category>
+		<description>Chromatographic measuring instruments and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41115800</class>
+		<commodity/>
+		<category>502.0.41115800</category>
+		<description>Clinical and diagnostic analyzers and accessories and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41116000</class>
+		<commodity/>
+		<category>502.0.41116000</category>
+		<description>Clinical and diagnostic analyzer reagents</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41116100</class>
+		<commodity/>
+		<category>502.0.41116100</category>
+		<description>Manual test kits and quality controls and calibrators and standards</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>41116158</commodity>
+		<category>502.0.41116158</category>
+		<description>Enzyme linked immunosorbent assay ELISA kit</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>41120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.41120000</category>
+		<description>Laboratory supplies and fixtures (including glassware)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>41122100</class>
+		<commodity/>
+		<category>502.0.41122100</category>
+		<description>Tissue culture and high throughput screening supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>42000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.42000000</category>
+		<description>Medical Equipment and Accessories and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>42120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Veterinary equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>42121500</class>
+		<commodity/>
+		<category>502.0.42121500</category>
+		<description>Veterinary equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>42121600</class>
+		<commodity/>
+		<category>502.0.42121600</category>
+		<description>Veterinary products and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>42121800</class>
+		<commodity/>
+		<category>502.0.42121800</category>
+		<description>Veterinary artificial insemination equipment and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>42170000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.42170000</category>
+		<description>Emergency and field medical services products (including kits)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>42250000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.42250000</category>
+		<description>Physical and occupational therapy and rehabilitation products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>42280000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Medical sterilization products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>42281500</class>
+		<commodity/>
+		<category>502.0.42281500</category>
+		<description>Autoclave and sterilizer equipment and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>43000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Information Technology Broadcasting and Telecommunications</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>43190000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Communications Devices and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43191500</class>
+		<commodity/>
+		<category>502.0.43191500</category>
+		<description>Personal communication devices</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43191501</commodity>
+		<category>502.0.43191501</category>
+		<description>Mobile phones</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43191510</commodity>
+		<category>502.0.43191510</category>
+		<description>Two way radios</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43191514</commodity>
+		<category>502.0.43191514</category>
+		<description>Satellite phone</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43191600</class>
+		<commodity/>
+		<category>502.0.43191600</category>
+		<description>Personal communications device accessories or parts</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>43200000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Components for information technology or broadcasting or telecommunications</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43201400</class>
+		<commodity/>
+		<category>502.0.43201400</category>
+		<description>System Cards</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43201800</class>
+		<commodity/>
+		<category>502.0.43201800</category>
+		<description>Hard disk drives and other media storage devices</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43202000</class>
+		<commodity/>
+		<category>502.0.43202000</category>
+		<description>Removable storage media (includes CDs, DVDs, flash memory)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>43210000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Computer Equipment and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43211500</class>
+		<commodity/>
+		<category/>
+		<description>Computers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43211501</commodity>
+		<category>502.0.43211501</category>
+		<description>Computer servers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43211503</commodity>
+		<category>502.0.43211503</category>
+		<description>Notebook (laptop) computers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43211507</commodity>
+		<category>502.0.43211507</category>
+		<description>Desktop computers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43211509</commodity>
+		<category>502.0.43211509</category>
+		<description>Tablet computers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43211600</class>
+		<commodity/>
+		<category>502.0.43211600</category>
+		<description>Computer accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43211700</class>
+		<commodity/>
+		<category/>
+		<description>Computer data input devices</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43211701</commodity>
+		<category>502.0.43211701</category>
+		<description>Bar code reader equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43211711</commodity>
+		<category>502.0.43211711</category>
+		<description>Scanners</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43211900</class>
+		<commodity/>
+		<category>502.0.43211900</category>
+		<description>Computer displays (monitors)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43212100</class>
+		<commodity/>
+		<category>502.0.43212100</category>
+		<description>Computer printers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43212107</commodity>
+		<category>502.0.43212107</category>
+		<description>Plotter (specialized) printers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>43220000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Data Voice or Multimedia Network Equipment or Platforms and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43221700</class>
+		<commodity/>
+		<category>502.0.43221700</category>
+		<description>Fixed network equipment and components</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43221705</commodity>
+		<category>502.0.43221705</category>
+		<description>Radio access equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>43221711</commodity>
+		<category>502.0.43221711</category>
+		<description>Satellite access equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43222600</class>
+		<commodity/>
+		<category>502.0.43222600</category>
+		<description>Network service equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>43222800</class>
+		<commodity/>
+		<category>502.0.43222800</category>
+		<description>Telephony equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>43230000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.43230000</category>
+		<description>Software</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>44000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Office Equipment and Accessories and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>44100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.44100000</category>
+		<description>Office machines and their supplies and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44101500</class>
+		<commodity/>
+		<category/>
+		<description>Duplicating machines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>44101503</commodity>
+		<category>502.0.44101503</category>
+		<description>Multifunction machines (printers, copiers, scanners)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>44101509</commodity>
+		<category>502.0.44101509</category>
+		<description>Fax machines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44101600</class>
+		<commodity/>
+		<category/>
+		<description>Paper processing machines and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>44101603</commodity>
+		<category>502.0.44101603</category>
+		<description>Paper shredding machines or accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44101700</class>
+		<commodity/>
+		<category>502.0.44101700</category>
+		<description>Printer and photocopier and facsimile accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44101800</class>
+		<commodity/>
+		<category>502.0.44101800</category>
+		<description>Calculating machines and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>44101804</commodity>
+		<category>502.0.44101804</category>
+		<description>Cash registers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44102100</class>
+		<commodity/>
+		<category>502.0.44102100</category>
+		<description>Mail machines (including franking and postage)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44102800</class>
+		<commodity/>
+		<category>502.0.44102800</category>
+		<description>Binding and lamination machines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44103100</class>
+		<commodity/>
+		<category>502.0.44103100</category>
+		<description>Printer and facsimile and photocopier supplies (including toner and ink cartridges)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>44110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Office and desk accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44111900</class>
+		<commodity/>
+		<category>502.0.44111900</category>
+		<description>Boards (including white boards and easels)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44112000</class>
+		<commodity/>
+		<category/>
+		<description>Planning systems</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>44112002</commodity>
+		<category>502.0.44112002</category>
+		<description>Calendars</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>44120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.44120000</category>
+		<description>Office Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>44122000</class>
+		<commodity/>
+		<category>502.0.44122000</category>
+		<description>Folders and binders and indexes</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>45000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Printing and Photographic and Audio and Visual Equipment and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>45100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Printing and publishing equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>45101500</class>
+		<commodity/>
+		<category>502.0.45101500</category>
+		<description>Printing machinery and equipment (industrial offset NOT computer printers)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>45111600</class>
+		<commodity/>
+		<category/>
+		<description>Projectors and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>45111603</commodity>
+		<category>502.0.45111603</category>
+		<description>Projection screens</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>45111616</commodity>
+		<category>502.0.45111616</category>
+		<description>Video projectors</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>45111700</class>
+		<commodity/>
+		<category/>
+		<description>Audio presentation and composing equipment and hardware and controllers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>45111705</commodity>
+		<category>502.0.45111705</category>
+		<description>Public address systems</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>45111900</class>
+		<commodity/>
+		<category>502.0.45111900</category>
+		<description>Audio and video conference equipment and hardware and controllers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>45120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Photographic or filming or video equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>45121500</class>
+		<commodity/>
+		<category>502.0.45121500</category>
+		<description>Cameras</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>45121516</commodity>
+		<category>502.0.45121516</category>
+		<description>Digital camcorders or video cameras</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>45121600</class>
+		<commodity/>
+		<category>502.0.45121600</category>
+		<description>Camera accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>45121603</commodity>
+		<category>502.0.45121603</category>
+		<description>Camera lens</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>46000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Defense and Law Enforcement and Security and Safety Equipment and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>46100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Light weapons and ammunition</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46101500</class>
+		<commodity/>
+		<category>502.0.46101500</category>
+		<description>Firearms</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46101600</class>
+		<commodity/>
+		<category>502.0.46101600</category>
+		<description>Ammunition</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>46150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Law enforcement</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46151500</class>
+		<commodity/>
+		<category>502.0.46151500</category>
+		<description>Crowd control equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>46151508</commodity>
+		<category>502.0.46151508</category>
+		<description>Helmets, bullet proof</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46151600</class>
+		<commodity/>
+		<category>502.0.46151600</category>
+		<description>Security and control equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>46160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Public safety and control</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46161600</class>
+		<commodity/>
+		<category>502.0.46161600</category>
+		<description>Water safety devices (life vests)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>46170000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Security surveillance and detection</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46171500</class>
+		<commodity/>
+		<category>502.0.46171500</category>
+		<description>Locks and security hardware and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46171600</class>
+		<commodity/>
+		<category>502.0.46171600</category>
+		<description>Surveillance and detection equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>46171604</commodity>
+		<category>502.0.46171604</category>
+		<description>Alarm systems</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>46171619</commodity>
+		<category>502.0.46171619</category>
+		<description>Security or access control systems</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>46171622</commodity>
+		<category>502.0.46171622</category>
+		<description>Closed circuit television CCTV system</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>46180000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.46180000</category>
+		<description>Personal safety and protection products and apparel</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46181500</class>
+		<commodity/>
+		<category/>
+		<description>Safety apparel</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>46181502</commodity>
+		<category>502.0.46181502</category>
+		<description>Bullet proof vests</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>46182400</class>
+		<commodity/>
+		<category/>
+		<description>Decontamination aids and safety cleaning equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>46182407</commodity>
+		<category>502.0.46182407</category>
+		<description>Chemical spill safety kit</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>46190000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.46190000</category>
+		<description>Fire prevention and fire fighting equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>47000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.47000000</category>
+		<description>Cleaning Equipment and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>47100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Water and wastewater treatment supply and disposal</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>47101500</class>
+		<commodity/>
+		<category/>
+		<description>Water treatment and supply equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>47101514</commodity>
+		<category>502.0.47101514</category>
+		<description>Water purification equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>47120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Janitorial equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>47121700</class>
+		<commodity/>
+		<category>502.0.47121700</category>
+		<description>Waste containers and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>48000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Service Industry Machinery and Equipment and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>48100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.48100000</category>
+		<description>Cafeteria services equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>48101700</class>
+		<commodity/>
+		<category>502.0.48101700</category>
+		<description>Food and beverage dispensing equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>48101800</class>
+		<commodity/>
+		<category>502.0.48101800</category>
+		<description>Cookware and kitchen tools</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>48101900</class>
+		<commodity/>
+		<category>502.0.48101900</category>
+		<description>Tabletop and serving equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>49000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Sports and Recreational Equipment and Supplies and Accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>49100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Collectibles and awards</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>49101700</class>
+		<commodity/>
+		<category>502.0.49101700</category>
+		<description>Awards (metals, plaques etc)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>49120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Camping and outdoor equipment and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>49121500</class>
+		<commodity/>
+		<category>502.0.49121500</category>
+		<description>Camping and outdoor equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>50000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.50000000</category>
+		<description>Food Beverage and Tobacco Products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>50500000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.50500000</category>
+		<description>Nutritional supplements</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>51000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.51000000</category>
+		<description>Drugs and Pharmaceutical Products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>51200000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Immunomodulating drugs</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>51201600</class>
+		<commodity/>
+		<category>502.0.51201600</category>
+		<description>Vaccines and antigens and toxoids</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>51201700</class>
+		<commodity/>
+		<category>502.0.51201700</category>
+		<description>Poultry vaccines</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>51201703</commodity>
+		<category>502.0.51201703</category>
+		<description>Gumboro vaccine</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>51201705</commodity>
+		<category>502.0.51201705</category>
+		<description>Newcastle virus vaccine</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>52000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Domestic Appliances and Supplies and Consumer Electronic Products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>52120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.52120000</category>
+		<description>Bedclothes and table and kitchen linen and towels</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>52130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.52130000</category>
+		<description>Window treatments</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>52140000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.52140000</category>
+		<description>Domestic appliances (refrigerators, microwaves, fans etc)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>52150000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.52150000</category>
+		<description>Domestic kitchenware and kitchen supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>52160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Consumer electronics</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>52161500</class>
+		<commodity/>
+		<category>502.0.52161500</category>
+		<description>Audio and visual equipment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>52161505</commodity>
+		<category>502.0.52161505</category>
+		<description>Televisions</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>52161511</commodity>
+		<category>502.0.52161511</category>
+		<description>Radios</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>52161518</commodity>
+		<category>502.0.52161518</category>
+		<description>Global positioning system GPS transmitter or receiver</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>52161523</commodity>
+		<category>502.0.52161523</category>
+		<description>Radio frequency transmitters or receivers (VHF, HF)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>52161600</class>
+		<commodity/>
+		<category>502.0.52161600</category>
+		<description>Audio visual equipment accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>53000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Apparel and Luggage and Personal Care Products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>53100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.53100000</category>
+		<description>Clothing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>53101600</class>
+		<commodity/>
+		<category>502.0.53101600</category>
+		<description>Shirts and blouses</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>53102500</class>
+		<commodity/>
+		<category>502.0.53102500</category>
+		<description>Clothing accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>53102700</class>
+		<commodity/>
+		<category>502.0.53102700</category>
+		<description>Uniforms</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>53110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.53110000</category>
+		<description>Footwear</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>53120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.53120000</category>
+		<description>Luggage and handbags and packs and cases</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>55000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Published Products</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>55100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Printed media</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>55101500</class>
+		<commodity/>
+		<category>502.0.55101500</category>
+		<description>Printed publications</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>55101501</commodity>
+		<category>502.0.55101501</category>
+		<description>Charts or maps or atlases</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>55101524</commodity>
+		<category>502.0.55101524</category>
+		<description>Reference books</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>55110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.55110000</category>
+		<description>Electronic reference material</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>55120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.55120000</category>
+		<description>Signage and accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>55121600</class>
+		<commodity/>
+		<category>502.0.55121600</category>
+		<description>Labels</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>55121700</class>
+		<commodity/>
+		<category/>
+		<description>Signage</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>55121706</commodity>
+		<category>502.0.55121706</category>
+		<description>Banners</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>55121715</commodity>
+		<category>502.0.55121715</category>
+		<description>Flags or accessories</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>55121800</class>
+		<commodity/>
+		<category>502.0.55121800</category>
+		<description>Identification documents</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>56000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Furniture and Furnishings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>56100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.56100000</category>
+		<description>Accommodation furniture (sofas, beds, etc)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>56101500</class>
+		<commodity/>
+		<category/>
+		<description>Furniture</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>56101510</commodity>
+		<category>502.0.56101510</category>
+		<description>Partitions</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>56101700</class>
+		<commodity/>
+		<category>502.0.56101700</category>
+		<description>Office furniture</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>56110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Commercial and industrial furniture</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>56112100</class>
+		<commodity/>
+		<category>502.0.56112100</category>
+		<description>Seating</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>56120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Classroom and instructional and institutional furniture and fixtures</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>56121400</class>
+		<commodity/>
+		<category>502.0.56121400</category>
+		<description>Cafeteria and lunchroom furnishings</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>56121900</class>
+		<commodity/>
+		<category>502.0.56121900</category>
+		<description>Demonstration furnishings (including display stands)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>56122000</class>
+		<commodity/>
+		<category>502.0.56122000</category>
+		<description>Laboratory furniture</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>60000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Musical Instruments and Games and Toys and Arts and Crafts and Educational Equipment and Materials and Accessories and Supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>60100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Developmental and professional teaching aids and materials and accessories and supplies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>60106100</class>
+		<commodity/>
+		<category>502.0.60106100</category>
+		<description>Vocational teaching aids and materials</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>60120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.60120000</category>
+		<description>Arts and crafts equipment and accessories and supplies (including picture frames)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>70000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Farming and Fishing and Forestry and Wildlife Contracting Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.70100000</category>
+		<description>Fisheries and aquaculture services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Horticulture</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70111700</class>
+		<commodity/>
+		<category/>
+		<description>Parks and gardens and orchards</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70111703</commodity>
+		<category>502.0.70111703</category>
+		<description>Garden planting or maintenance services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.70120000</category>
+		<description>Livestock services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70121500</class>
+		<commodity/>
+		<category>502.0.70121500</category>
+		<description>Dairying services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70121600</class>
+		<commodity/>
+		<category/>
+		<description>Livestock industry</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70121610</commodity>
+		<category>502.0.70121610</category>
+		<description>Apiculture services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70121700</class>
+		<commodity/>
+		<category>502.0.70121700</category>
+		<description>Livestock management services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70122000</class>
+		<commodity/>
+		<category>502.0.70122000</category>
+		<description>Animal health services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70122005</commodity>
+		<category>502.0.70122005</category>
+		<description>Animal health preventive medication services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70122010</commodity>
+		<category>502.0.70122010</category>
+		<description>Animal health information services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.70130000</category>
+		<description>Land and soil preparation and management and protection</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Crop production and management and protection</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70141500</class>
+		<commodity/>
+		<category>502.0.70141500</category>
+		<description>Crop production services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70141600</class>
+		<commodity/>
+		<category>502.0.70141600</category>
+		<description>Crop protection services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70141601</commodity>
+		<category>502.0.70141601</category>
+		<description>Crop spraying services (ground)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70142000</class>
+		<commodity/>
+		<category>502.0.70142000</category>
+		<description>Post harvesting crop processing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Forestry</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70151500</class>
+		<commodity/>
+		<category>502.0.70151500</category>
+		<description>Forestry management services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70151800</class>
+		<commodity/>
+		<category>502.0.70151800</category>
+		<description>Forestry conservation services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70151900</class>
+		<commodity/>
+		<category>502.0.70151900</category>
+		<description>Forestry resources services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Wildlife and flora</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70161500</class>
+		<commodity/>
+		<category>502.0.70161500</category>
+		<description>Fauna and wildlife protection services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70161700</class>
+		<commodity/>
+		<category/>
+		<description>Ecosystems</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70161704</commodity>
+		<category>502.0.70161704</category>
+		<description>Ecosystems protection services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>70170000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Water resources development and oversight</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70171500</class>
+		<commodity/>
+		<category>502.0.70171500</category>
+		<description>Water resources development services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70171600</class>
+		<commodity/>
+		<category>502.0.70171600</category>
+		<description>Water quality management services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>70171602</commodity>
+		<category>502.0.70171602</category>
+		<description>Water testing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70171700</class>
+		<commodity/>
+		<category>502.0.70171700</category>
+		<description>Irrigation system maintenance and management services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>70171800</class>
+		<commodity/>
+		<category>502.0.70171800</category>
+		<description>Drainage services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>72000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Building and Facility Construction and Maintenance Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>72100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.72100000</category>
+		<description>Building and facility maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72101500</class>
+		<commodity/>
+		<category/>
+		<description>Building maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72101509</commodity>
+		<category>502.0.72101509</category>
+		<description>Fire protection system and equipment maintenance or repair service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72101510</commodity>
+		<category>502.0.72101510</category>
+		<description>Plumbing system maintenance or repair</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72101511</commodity>
+		<category>502.0.72101511</category>
+		<description>Air conditioning installation or maintenance or repair service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72101516</commodity>
+		<category>502.0.72101516</category>
+		<description>Fire extinguisher inspection maintenance and repair service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72101517</commodity>
+		<category>502.0.72101517</category>
+		<description>Generator  installation, maintenance and repair service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72102100</class>
+		<commodity/>
+		<category>502.0.72102100</category>
+		<description>Pest control services (facilities, not agriculture)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72103300</class>
+		<commodity/>
+		<category>502.0.72103300</category>
+		<description>Infrastructure (non-building) maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>72110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.72110000</category>
+		<description>Residential (Guesthouse) building construction, renovation, and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72121000</class>
+		<commodity/>
+		<category/>
+		<description>New industrial building and warehouse construction services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72121008</commodity>
+		<category>502.0.72121008</category>
+		<description>Warehouse construction and renovation service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72121100</class>
+		<commodity/>
+		<category>502.0.72121100</category>
+		<description>Office building construction, renovation, and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72121200</class>
+		<commodity/>
+		<category>502.0.72121200</category>
+		<description>Agricultural building construction, renovation, and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>72140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Heavy construction services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72141000</class>
+		<commodity/>
+		<category>502.0.72141000</category>
+		<description>Road construction and rehabilitation services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72141100</class>
+		<commodity/>
+		<category/>
+		<description>Infrastructure building and surfacing and paving services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72141125</commodity>
+		<category>502.0.72141125</category>
+		<description>Pumping station construction and rehabilitation service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72141200</class>
+		<commodity/>
+		<category/>
+		<description>Marine construction services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72141208</commodity>
+		<category>502.0.72141208</category>
+		<description>Irrigation system construction and rehabilitation service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72141212</commodity>
+		<category>502.0.72141212</category>
+		<description>Pond and reservoir construction and rehabilitation service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>72150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Specialized trade construction and maintenance services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72151000</class>
+		<commodity/>
+		<category/>
+		<description>Boiler and furnace construction and maintenance services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72151003</commodity>
+		<category>502.0.72151003</category>
+		<description>Heating system installation, maintenance and repair service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72151500</class>
+		<commodity/>
+		<category>502.0.72151500</category>
+		<description>Electrical system installation, maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72151600</class>
+		<commodity/>
+		<category>502.0.72151600</category>
+		<description>Specialized communication system installation, maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72151700</class>
+		<commodity/>
+		<category>502.0.72151700</category>
+		<description>Safety and security system installation, maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72152800</class>
+		<commodity/>
+		<category>502.0.72152800</category>
+		<description>Water well drilling services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72153600</class>
+		<commodity/>
+		<category>502.0.72153600</category>
+		<description>Interior finishing and furnishing and remodeling services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>72154000</class>
+		<commodity/>
+		<category/>
+		<description>Specialty building and trades services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>72154066</commodity>
+		<category>502.0.72154066</category>
+		<description>General office equipment maintenance and repair</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>73000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Industrial Production and Manufacturing Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>73130000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Food and beverage industries</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>73131600</class>
+		<commodity/>
+		<category>502.0.73131600</category>
+		<description>Meat and poultry and seafood processing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>73131700</class>
+		<commodity/>
+		<category>502.0.73131700</category>
+		<description>Fruits and vegetables processing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>73131800</class>
+		<commodity/>
+		<category>502.0.73131800</category>
+		<description>Dairy and eggs processing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>73131900</class>
+		<commodity/>
+		<category>502.0.73131900</category>
+		<description>Grains and sugar and oils and fat processing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>76000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Industrial Cleaning Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>76110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.76110000</category>
+		<description>Cleaning and janitorial services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>76120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Refuse disposal and treatment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>76121500</class>
+		<commodity/>
+		<category>502.0.76121500</category>
+		<description>Refuse collection and disposal</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>76121900</class>
+		<commodity/>
+		<category>502.0.76121900</category>
+		<description>Hazardous waste (including pesticides safeguarding) disposal</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>76122300</class>
+		<commodity/>
+		<category>502.0.76122300</category>
+		<description>Recycling services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>77000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Environmental Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>77100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Environmental management</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>77101500</class>
+		<commodity/>
+		<category>502.0.77101500</category>
+		<description>Environmental impact assessment</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>77101700</class>
+		<commodity/>
+		<category>502.0.77101700</category>
+		<description>Environmental advisory services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>77120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.77120000</category>
+		<description>Pollution tracking and monitoring and rehabilitation</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>78000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Transportation and Storage and Mail Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>78100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.78100000</category>
+		<description>Cargo transport</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>78101804</commodity>
+		<category>502.0.78101804</category>
+		<description>Relocation services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>78102200</class>
+		<commodity/>
+		<category>502.0.78102200</category>
+		<description>Postal and small parcel and courier services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>78110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.78110000</category>
+		<description>Passenger transport</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>78111800</class>
+		<commodity/>
+		<category/>
+		<description>Passenger road transportation</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>78111807</commodity>
+		<category>502.0.78111807</category>
+		<description>Parking fees</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>78111808</commodity>
+		<category>502.0.78111808</category>
+		<description>Passenger vehicle rental</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>78120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.78120000</category>
+		<description>Material packing and handling services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>78130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.78130000</category>
+		<description>Storage services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>78140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Transport services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>78141500</class>
+		<commodity/>
+		<category/>
+		<description>Transport arranging services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>78141501</commodity>
+		<category>502.0.78141501</category>
+		<description>Freight forwarders services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>78141502</commodity>
+		<category>502.0.78141502</category>
+		<description>Customs brokerage services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>78141900</class>
+		<commodity/>
+		<category>502.0.78141900</category>
+		<description>Transport container rental services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>78142000</class>
+		<commodity/>
+		<category>502.0.78142000</category>
+		<description>Transport conveyance rental or lease services (for cargo only)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>78180000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Transportation repair or maintenance services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>78181500</class>
+		<commodity/>
+		<category>502.0.78181500</category>
+		<description>Vehicle maintenance and repair services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>80000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Management and Business Professionals and Administrative Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Management advisory services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80101500</class>
+		<commodity/>
+		<category>502.0.80101500</category>
+		<description>Business and corporate management consultation services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80101600</class>
+		<commodity/>
+		<category>502.0.80101600</category>
+		<description>Project management</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>80101601</commodity>
+		<category>502.0.80101601</category>
+		<description>Feasibility studies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.80110000</category>
+		<description>Human resources services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.80120000</category>
+		<description>Legal services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.80130000</category>
+		<description>Real estate services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80131500</class>
+		<commodity/>
+		<category>502.0.80131500</category>
+		<description>Lease and rental of buildings and warehouse</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Marketing and distribution</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80141500</class>
+		<commodity/>
+		<category>502.0.80141500</category>
+		<description>Market research</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80141600</class>
+		<commodity/>
+		<category>502.0.80141600</category>
+		<description>Sales and business promotion activities</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>80141605</commodity>
+		<category>502.0.80141605</category>
+		<description>Promotional merchandise</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>80141607</commodity>
+		<category>502.0.80141607</category>
+		<description>Events management</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>80141609</commodity>
+		<category>502.0.80141609</category>
+		<description>Sponsorship of event or celebrity</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80141900</class>
+		<commodity/>
+		<category>502.0.80141900</category>
+		<description>Trade shows and exhibits</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80150000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.80150000</category>
+		<description>Trade policy and services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Business administration services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80161500</class>
+		<commodity/>
+		<category/>
+		<description>Management support services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>80161507</commodity>
+		<category>502.0.80161507</category>
+		<description>Audio visual services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80161800</class>
+		<commodity/>
+		<category>502.0.80161800</category>
+		<description>Office equipment rental or leasing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>80170000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.80170000</category>
+		<description>Public relations and professional communications services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>80171500</class>
+		<commodity/>
+		<category>502.0.80171500</category>
+		<description>Situation and stakeholder analysis and communications planning services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>81000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Engineering and Research and Technology Based Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.81100000</category>
+		<description>Professional engineering services (including geotechnical studies)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81101500</class>
+		<commodity/>
+		<category/>
+		<description>Civil engineering</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81101508</commodity>
+		<category>502.0.81101508</category>
+		<description>Architectural engineering and supervision</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81101516</commodity>
+		<category>502.0.81101516</category>
+		<description>Energy or utility consulting service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81101700</class>
+		<commodity/>
+		<category/>
+		<description>Electrical and electronic engineering</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81101706</commodity>
+		<category>502.0.81101706</category>
+		<description>Laboratory equipment maintenance</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Computer services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81111500</class>
+		<commodity/>
+		<category>502.0.81111500</category>
+		<description>Software engineering service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81111600</class>
+		<commodity/>
+		<category>502.0.81111600</category>
+		<description>Computer programmers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81111700</class>
+		<commodity/>
+		<category>502.0.81111700</category>
+		<description>Management information systems MIS</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81111800</class>
+		<commodity/>
+		<category>502.0.81111800</category>
+		<description>ITC network systems installation, maintenance and support services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81111818</commodity>
+		<category>502.0.81111818</category>
+		<description>Third party warranty service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81112000</class>
+		<commodity/>
+		<category>502.0.81112000</category>
+		<description>Data services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81112100</class>
+		<commodity/>
+		<category>502.0.81112100</category>
+		<description>Internet services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81112103</commodity>
+		<category>502.0.81112103</category>
+		<description>World wide web WWW site design services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81112200</class>
+		<commodity/>
+		<category>502.0.81112200</category>
+		<description>Software maintenance and support</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81112300</class>
+		<commodity/>
+		<category>502.0.81112300</category>
+		<description>Computer hardware maintenance and support</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81112306</commodity>
+		<category>502.0.81112306</category>
+		<description>Printer, scanner and multifunctional equipment maintenance</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.81120000</category>
+		<description>Economics services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.81130000</category>
+		<description>Statistics analysis services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Manufacturing technologies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81141500</class>
+		<commodity/>
+		<category/>
+		<description>Quality control</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81141501</commodity>
+		<category>502.0.81141501</category>
+		<description>Materials testing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81141503</commodity>
+		<category>502.0.81141503</category>
+		<description>Materials or product inspection services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81141600</class>
+		<commodity/>
+		<category>502.0.81141600</category>
+		<description>Supply chain management</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Earth science services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81151600</class>
+		<commodity/>
+		<category>502.0.81151600</category>
+		<description>Cartography services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81151604</commodity>
+		<category>502.0.81151604</category>
+		<description>Land surveying services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81160000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Information Technology Service Delivery</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81161800</class>
+		<commodity/>
+		<category>502.0.81161800</category>
+		<description>Data voice or multimedia network equipment or platform rental or leasing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>81170000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Biological science services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>81171800</class>
+		<commodity/>
+		<category/>
+		<description>Agricultural science services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>81171801</commodity>
+		<category>502.0.81171801</category>
+		<description>Agricultural science consultation service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>82000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Editorial and Design and Graphic and Fine Art Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>82100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.82100000</category>
+		<description>Advertising services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82101900</class>
+		<commodity/>
+		<category>502.0.82101900</category>
+		<description>Media placement and fulfillment (TV, radio, newspaper)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82111600</class>
+		<commodity/>
+		<category/>
+		<description>Non technical writing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>82111604</commodity>
+		<category>502.0.82111604</category>
+		<description>Transcribing (verbatim) services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82111800</class>
+		<commodity/>
+		<category/>
+		<description>Editorial and support services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>82111801</commodity>
+		<category>502.0.82111801</category>
+		<description>Editing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>82111804</commodity>
+		<category>502.0.82111804</category>
+		<description>Written translation services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82111900</class>
+		<commodity/>
+		<category>502.0.82111900</category>
+		<description>News and publicity services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82112000</class>
+		<commodity/>
+		<category>502.0.82112000</category>
+		<description>In person language interpretation services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>82120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.82120000</category>
+		<description>Reproduction services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82121500</class>
+		<commodity/>
+		<category>502.0.82121500</category>
+		<description>Printing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>82121501</commodity>
+		<category>502.0.82121501</category>
+		<description>Planning or layout of graphic production</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82121600</class>
+		<commodity/>
+		<category>502.0.82121600</category>
+		<description>Engraving</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82121800</class>
+		<commodity/>
+		<category>502.0.82121800</category>
+		<description>Publishing</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>82130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.82130000</category>
+		<description>Photographic services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82131500</class>
+		<commodity/>
+		<category>502.0.82131500</category>
+		<description>Film processing services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>82131600</class>
+		<commodity/>
+		<category/>
+		<description>Photographers and cinematographers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>82131603</commodity>
+		<category>502.0.82131603</category>
+		<description>Video production services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>82140000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.82140000</category>
+		<description>Graphic design services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>82150000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.82150000</category>
+		<description>Professional artists and performers</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>83000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Public Utilities and Public Sector Related Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>83100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Utilities</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83101500</class>
+		<commodity/>
+		<category>502.0.83101500</category>
+		<description>Water and sewer utilities</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83101600</class>
+		<commodity/>
+		<category>502.0.83101600</category>
+		<description>Oil and gas utilities</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83101800</class>
+		<commodity/>
+		<category>502.0.83101800</category>
+		<description>Electric utilities</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>83110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Telecommunications media services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83111500</class>
+		<commodity/>
+		<category>502.0.83111500</category>
+		<description>Fixed line telephone communications services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83111600</class>
+		<commodity/>
+		<category>502.0.83111600</category>
+		<description>Mobile communications services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>83111602</commodity>
+		<category>502.0.83111602</category>
+		<description>Satellite communication systems services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83111700</class>
+		<commodity/>
+		<category>502.0.83111700</category>
+		<description>Facsimile and telegraph services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83111800</class>
+		<commodity/>
+		<category>502.0.83111800</category>
+		<description>Television access services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83111900</class>
+		<commodity/>
+		<category>502.0.83111900</category>
+		<description>Radio access services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>83112400</class>
+		<commodity/>
+		<category>502.0.83112400</category>
+		<description>Switched dial up and leased dedicated line circuit telecommunications services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>84000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Financial and Insurance Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>84120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.84120000</category>
+		<description>Banking and investment services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>84130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.84130000</category>
+		<description>Insurance and retirement services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>84131500</class>
+		<commodity/>
+		<category/>
+		<description>Insurance services for structures and property and possessions</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>84131503</commodity>
+		<category>502.0.84131503</category>
+		<description>Car or truck insurance</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>84131504</commodity>
+		<category>502.0.84131504</category>
+		<description>Marine cargo insurance</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>85000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.85000000</category>
+		<description>Healthcare Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>85150000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Food and nutrition services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>85151700</class>
+		<commodity/>
+		<category>502.0.85151700</category>
+		<description>Food policy planning and aid</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>86000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category>502.0.86000000</category>
+		<description>Education and Training Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>86100000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Vocational training</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>86101500</class>
+		<commodity/>
+		<category>502.0.86101500</category>
+		<description>Agriculture and forestry and other natural resources training services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>86101800</class>
+		<commodity/>
+		<category>502.0.86101800</category>
+		<description>In service training and manpower development</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>90000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Travel and Food and Lodging and Entertainment Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>90100000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.90100000</category>
+		<description>Restaurants and catering services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>90110000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.90110000</category>
+		<description>Hotels and lodging and meeting facilities</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>90120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Travel facilitation</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>90121500</class>
+		<commodity/>
+		<category/>
+		<description>Travel agents</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>90121502</commodity>
+		<category>502.0.90121502</category>
+		<description>Travel agencies</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>91000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Personal and Domestic Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>91110000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Domestic and personal assistance</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>91111500</class>
+		<commodity/>
+		<category/>
+		<description>Laundering services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>91111502</commodity>
+		<category>502.0.91111502</category>
+		<description>Laundry services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>91101904</commodity>
+		<category>502.0.91101904</category>
+		<description>Tailoring service</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>92000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>National Defense and Public Order and Security and Safety Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>92120000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.92120000</category>
+		<description>Security and personal safety services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>92121700</class>
+		<commodity/>
+		<category/>
+		<description>Security systems services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>92121701</commodity>
+		<category>502.0.92121701</category>
+		<description>Surveillance or alarm systems maintenance or monitoring</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>93000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Politics and Civic Affairs Services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>93130000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Humanitarian aid and relief</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>93131600</class>
+		<commodity/>
+		<category>502.0.93131600</category>
+		<description>Food and nutrition policy planning and programs</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>93140000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Community and social services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>93141900</class>
+		<commodity/>
+		<category>502.0.93141900</category>
+		<description>Rural development services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>93141905</commodity>
+		<category>502.0.93141905</category>
+		<description>Agricultural research services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>93141908</commodity>
+		<category>502.0.93141908</category>
+		<description>Agrarian reform or land settlement services</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>93151500</class>
+		<commodity/>
+		<category/>
+		<description>Public administration</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>93151517</commodity>
+		<category>502.0.93151517</category>
+		<description>License or registration fee</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>94000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Organizations and Clubs</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>94130000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.94130000</category>
+		<description>Civic organizations and associations memberships</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment>95000000</segment>
+		<family/>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Land and Buildings and Structures and Thoroughfares</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>95120000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Permanent buildings and structures</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>95121804</class>
+		<commodity/>
+		<category>502.0.95121804</category>
+		<description>Water tower</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>95130000</family>
+		<class/>
+		<commodity/>
+		<category/>
+		<description>Portable buildings and structures</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>95131700</class>
+		<commodity/>
+		<category>502.0.95131700</category>
+		<description>Tents and membrane structures</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family>95140000</family>
+		<class/>
+		<commodity/>
+		<category>502.0.95140000</category>
+		<description>Prefabricated buildings and structures (including conex)</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class>95141500</class>
+		<commodity/>
+		<category/>
+		<description>Prefabricated farm buildings and structures</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>95141501</commodity>
+		<category>502.0.95141501</category>
+		<description>Silo, prefabricated</description>
+	</GRMSCategory>
+	<GRMSCategory>
+		<segment/>
+		<family/>
+		<class/>
+		<commodity>95141502</commodity>
+		<category>502.0.95141502</category>
+		<description>Greenhouse, prefabricated</description>
+	</GRMSCategory>
+</GRMSCategoryCodes>
