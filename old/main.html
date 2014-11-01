@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test of local reload</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <article>
+    <p><input id="inText" type="text"><input id="daje1" type="button" value="daje"></p>
+    <div id="holder" style="background: yellow;"></div>
+  </article>
+
+
+
+</body>
+
+
+<script>
+
+  $(document).ready(function() {
+    $("#daje1").click(function(event) {
+      $("#holder").text($("#inText").val());
+
+loadXML('http://localhost/books.xml');
+
+      event.preventDefault();
+    });
+  });
+
+
+function loadXML(file) {
+  var xmlRequest = (window.XMLHttpRequest ? 
+                    new XMLHttpRequest() : 
+                    new ActiveXObject("Microsoft.XMLHTTP"));
+  xmlRequest.open("GET", file, true);
+
+  xmlRequest.onreadystatechange = function () {
+    if(xmlRequest.readyState === 4) {
+      if(xmlRequest.status === 200 || xmlRequest.status == 0) {
+        var allText = xmlRequest.responseText;
+        alert(allText);
+      }
+    }
+  }
+  xmlRequest.send(null);
+}
+
+function loadXMLDoc(dname)
+{
+if (window.XMLHttpRequest)
+  {
+  xhttp=new XMLHttpRequest();
+  }
+else
+  {
+  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xhttp.open("GET",dname,false);
+xhttp.send("");
+return xhttp.responseXML;
+}
+
+function displayResult()
+{
+xml=loadXMLDoc("1.xml");
+xsl=loadXMLDoc("2.xsl");
+// code for IE
+if (window.ActiveXObject)
+  {
+  xml.addParameter("rss", test); 
+  ex=xml.transformNode(xsl);
+  document.getElementById("example").innerHTML=ex;
+  }
+// code for Mozilla, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltProcessor=new XSLTProcessor();
+  xsltProcessor.importStylesheet(xsl);
+  resultDocument = xsltProcessor.transformToFragment(xml,document);
+  document.getElementById("example").appendChild(resultDocument);
+  }
+}
+
+
+
+</script>
+
+</html> 
