@@ -20,11 +20,11 @@ function xquery(search_this) {
 
   $.when(
     // Get the XML
-    $.get("http://localhost/samples/grmscatcodes.xml", 
+    $.get("http://localhost/xml-path-finder/samples/grmscatcodes.xml", 
           function(data){xml = data}), 
 
     // Get the XSL
-    $.get("http://localhost/samples/grmscatcodes.xsl", function(data){xsl = data})
+    $.get("http://localhost/xml-path-finder/samples/grmscatcodes.xsl", function(data){xsl = data})
 
   ).done(function() {
 
