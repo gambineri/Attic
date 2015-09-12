@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test of local reload</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+  <article>
+    <p><input id="inText" type="text"><input id="daje1" type="button" value="daje"></p>
+    <div id="holder" style="background: yellow;"></div>
+  </article>
+</body>
+
+<script>
+
+function xquery(search_this) {
+  var xml='', xsl='';
+
+  $.when(
+    // Get the XML
+    $.get("http://localhost/xml-path-finder/samples/grmscatcodes.xml", 
+          function(data){xml = data}), 
+
+    // Get the XSL
+    $.get("http://localhost/xml-path-finder/samples/grmscatcodes.xsl", function(data){xsl = data})
+
+  ).done(function() {
+
+    if (document.implementation && document.implementation.createDocument) {
+      xsltProcessor=new XSLTProcessor();
+      xsltProcessor.importStylesheet(xsl);
+      xsltProcessor.setParameter(null, "userVal", search_this);
+      resultDocument = xsltProcessor.transformToFragment(xml, document);
+      $("#holder").html(resultDocument);
+    }
+  });
+}
+
+
+$(document).ready(function() {
+  $("#daje1").click(function(event) {
+    xquery($("#inText").val());
+    event.preventDefault();
+  });
+});
+
+
+</script>
+
+</html> 
