@@ -46,9 +46,9 @@ public class NaryTree
   private final String ERR_NO_CONN         = "Cannot access database: no connection available.";
   private final String ERR_WRONG_DB_STRUCT = "Main table not found or fixed field names missing/mispelled.";
   
-  private DBConnection   m_Conn  = null;
+  private DBConnection    m_Conn  = null;
   private String          m_Tbl   = null;
-  private RecordSet    m_TmpRs = null;
+  private RecordSet       m_TmpRs = null;
   
   /**
    * Creates a new instance of NaryTree
@@ -57,13 +57,12 @@ public class NaryTree
    */
   public NaryTree(DBConnection conn, String narytree_table)
   {
-    m_Conn  = conn;
-    m_Tbl   = narytree_table;
+    m_Conn = conn;
+    m_Tbl  = narytree_table;
       
     checkRDBMS();
   }
   
-  //----------------------------------------------------------------------------
   /**
    * Checks if the database structure is consistent with the requirements (see general comment on NaryTree) 
    * and raises an exception with detailed error messages.
@@ -80,7 +79,6 @@ public class NaryTree
       throw new Error(ERR_WRONG_DB_STRUCT);
   }
 
-  //----------------------------------------------------------------------------
   /**
    * Adds a root element to the tree.
    * @param rootLabel Label for the root element.
@@ -115,7 +113,6 @@ public class NaryTree
     return rootid;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * Adds a child node to the given node.
    * @param parentNodeId the id of the node that will be the parent of the newly created node.
@@ -152,7 +149,6 @@ public class NaryTree
     return nodeid;
   }
  
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -174,7 +170,6 @@ public class NaryTree
     return true;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param node
@@ -196,7 +191,6 @@ public class NaryTree
     return true;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -230,7 +224,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -253,7 +246,6 @@ public class NaryTree
     return ret;
   }
 
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param node
@@ -276,7 +268,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -294,7 +285,6 @@ public class NaryTree
     return new Node(parentid);
   }
 
-  //----------------------------------------------------------------------------
   /**
    * 
    * @return 
@@ -318,7 +308,6 @@ public class NaryTree
   return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @return 
@@ -335,11 +324,11 @@ public class NaryTree
       int c = 0;
       while (m_TmpRs.next())
       {
-        ret[c] = new Node();
-        ret[c].m_Id    = Tools.stringToInt(m_TmpRs.getField(FN_NODEID));
-        ret[c].m_Pid   = 0;
-        ret[c].m_Depth = 1;
-        ret[c].m_Label = m_TmpRs.getField(FN_NODELABEL);
+        ret[c]          = new Node();
+        ret[c].m_Id     = Tools.stringToInt(m_TmpRs.getField(FN_NODEID));
+        ret[c].m_Pid    = 0;
+        ret[c].m_Depth  = 1;
+        ret[c].m_Label  = m_TmpRs.getField(FN_NODELABEL);
         c++;
       }
     } 
@@ -351,7 +340,6 @@ public class NaryTree
     return ret;
   }
 
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -377,7 +365,6 @@ public class NaryTree
     return ret - 1;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -414,7 +401,6 @@ public class NaryTree
     return ret;
   }
 
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -435,11 +421,11 @@ public class NaryTree
       int c = 0;
       while (m_TmpRs.next())
       {
-        ret[c] = new Node();
-        ret[c].m_Id    = Tools.stringToInt(m_TmpRs.getField(FN_NODEID));
-        ret[c].m_Pid   = nodeid;
-        ret[c].m_Depth = Tools.stringToInt(m_TmpRs.getField(FN_NODEDEPTH));
-        ret[c].m_Label = m_TmpRs.getField(FN_NODELABEL);
+        ret[c]          = new Node();
+        ret[c].m_Id     = Tools.stringToInt(m_TmpRs.getField(FN_NODEID));
+        ret[c].m_Pid    = nodeid;
+        ret[c].m_Depth  = Tools.stringToInt(m_TmpRs.getField(FN_NODEDEPTH));
+        ret[c].m_Label  = m_TmpRs.getField(FN_NODELABEL);
         c++;
       }
     } 
@@ -451,7 +437,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -476,7 +461,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -509,7 +493,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @return the greates value for a node depth.
@@ -531,7 +514,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -549,11 +531,11 @@ public class NaryTree
       int c = 0;
       while (m_TmpRs.next())
       {
-        ret[c] = new Node();
-        ret[c].m_Id    = Tools.stringToInt(m_TmpRs.getField(FN_NODEID));
-        ret[c].m_Pid   = nodeid;
-        ret[c].m_Depth = Tools.stringToInt(m_TmpRs.getField(FN_NODEDEPTH));
-        ret[c].m_Label = m_TmpRs.getField(FN_NODELABEL);
+        ret[c]          = new Node();
+        ret[c].m_Id     = Tools.stringToInt(m_TmpRs.getField(FN_NODEID));
+        ret[c].m_Pid    = nodeid;
+        ret[c].m_Depth  = Tools.stringToInt(m_TmpRs.getField(FN_NODEDEPTH));
+        ret[c].m_Label  = m_TmpRs.getField(FN_NODELABEL);
         
         c++;
       }
@@ -566,7 +548,6 @@ public class NaryTree
     return ret;
   }
   
-  //----------------------------------------------------------------------------
   public void CheckDBConn()
   {
     if (!m_Conn.isValid())
@@ -646,7 +627,6 @@ public class NaryTree
   }
   //End of class Node **********************************************************
   
-  //----------------------------------------------------------------------------
   /**
    * 
    * @param nodeid 
@@ -666,7 +646,6 @@ public class NaryTree
     return ret;
   }
 
-  //----------------------------------------------------------------------------
   /**
    * 
    * @return 
@@ -681,7 +660,4 @@ public class NaryTree
     
     return ret;
   }
-}
-
-
-
+} // End of class NaryTree 
