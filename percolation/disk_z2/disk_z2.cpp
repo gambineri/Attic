@@ -35,10 +35,9 @@ void create_config(double p)
 }
 
 //-----------------------------------------------------------
-void print_config()
+void print_config() 
 {
-  for (int i=0; i<(MAX_DIST*2 + 1); i++)
-  {
+  for (int i=0; i<(MAX_DIST*2 + 1); i++) {
     for (int j=0; j<(MAX_DIST*2 + 1); j++)
       if (m_Dist[i][j] <= m_CurDist)
         printf("%2c", m_Status[i][j]);
@@ -51,8 +50,8 @@ void print_config()
 }
 
 //-----------------------------------------------------------
-int config_level()
-{
+int config_level() 
+{	
   int ret = 0;
 
   for (int i=0; i<(MAX_DIST*2 + 1); i++)
@@ -68,8 +67,7 @@ void assign_distances()
 {
   int i, j;
 
-  for (i=0; i<MAX_DIST; i++)
-  {
+  for (i=0; i<MAX_DIST; i++) {
     for (j=0; j<MAX_DIST; j++)
       m_Dist[i][j] = MAX_DIST*2 - i - j;
 
@@ -77,8 +75,7 @@ void assign_distances()
       m_Dist[i][j] = j - i;
   }
 
-  for (i=MAX_DIST; i<=MAX_DIST*2; i++)
-  {
+  for (i=MAX_DIST; i<=MAX_DIST*2; i++) {
     for (j=0; j<MAX_DIST; j++)
       m_Dist[i][j] = i - j;
 
@@ -90,8 +87,7 @@ void assign_distances()
 //-----------------------------------------------------------
 void print_distance_schema()
 {
-  for (int i=0; i<(MAX_DIST*2 + 1); i++)
-  {
+  for (int i=0; i<(MAX_DIST*2 + 1); i++) {
     for (int j=0; j<(MAX_DIST*2 + 1); j++)
       if (m_Dist[i][j] <= MAX_DIST)
         printf("%2d", m_Dist[i][j]);
@@ -109,10 +105,8 @@ char percolation_with_auto_build_path(int x, int y)
   if (m_Status[x][y] == UNUSED)
     m_Status[x][y] = (((double)rand()/(RAND_MAX + 1)) < m_P) ? OCCUPIED : VACANT;
 
-  if (m_Status[x][y] == OCCUPIED)
-  {
-    if (m_Dist[x][y] == m_CurDist)
-    {
+  if (m_Status[x][y] == OCCUPIED) {
+    if (m_Dist[x][y] == m_CurDist) {
 //      m_Status[x][y] = SEEN; //only for 'visual' debug 
       return 1;
     }
@@ -131,8 +125,7 @@ char percolation_with_auto_build_path(int x, int y)
 //-----------------------------------------------------------
 char percolation_on_existing_config(int x, int y)
 {
-  if (m_Status[x][y] == OCCUPIED)
-  {
+  if (m_Status[x][y] == OCCUPIED) {
     if (m_Dist[x][y] == m_CurDist)
       return 1;
 
@@ -159,8 +152,7 @@ void mup_on_disk(int from_dist, int to_dist, int x_points, int confs_per_point)
   FILE*   fp = NULL;
   char    fname[256];
 
-  if (from_dist <= 0 || to_dist > MAX_DIST)
-  {
+  if (from_dist <= 0 || to_dist > MAX_DIST) {
     printf("Bad range parameters in mup_on_disk\n");
     return;
   }
@@ -170,8 +162,7 @@ void mup_on_disk(int from_dist, int to_dist, int x_points, int confs_per_point)
 
   beg = clock()*CLOCKS_PER_MILLI;
 
-  for (m_CurDist = from_dist; m_CurDist<=to_dist; m_CurDist++)
-  {
+  for (m_CurDist = from_dist; m_CurDist<=to_dist; m_CurDist++) {
     sprintf(fname, "disk_z2_dist%03d.dat", m_CurDist);
     if ((fp = fopen(fname, "wt")) == NULL)
     {
@@ -183,12 +174,10 @@ void mup_on_disk(int from_dist, int to_dist, int x_points, int confs_per_point)
     fprintf(fp, "# Percolation on a finite disk in Z2 of radius %d\n", m_CurDist);
 
     m_P = 0.0;
-    for (int points = 0; points<x_points; points++)  
-    {
+    for (int points = 0; points<x_points; points++)  {
       m_P += inc;
       success = 0;
-      for (int i=0; i<confs_per_point; i++)
-      {
+      for (int i=0; i<confs_per_point; i++) {
         memset(m_Status, UNUSED, sizeof(m_Status));
         success += percolation_with_auto_build_path(MAX_DIST, MAX_DIST);
       }
@@ -221,8 +210,7 @@ void pivotal_sites(int from_dist, int to_dist, int x_points, int confs_per_point
   char   fname[256];
   char   config[MAX_DIST*2 + 1][MAX_DIST*2 + 1];
 
-  if (from_dist <= 0 || to_dist > MAX_DIST)
-  {
+  if (from_dist <= 0 || to_dist > MAX_DIST) {
     printf("Bad range parameters in mup_on_disk\n");
     return;
   }
@@ -232,11 +220,9 @@ void pivotal_sites(int from_dist, int to_dist, int x_points, int confs_per_point
 
   beg = clock()*CLOCKS_PER_MILLI;
 
-  for (m_CurDist = from_dist; m_CurDist<=to_dist; m_CurDist++)
-  {
+  for (m_CurDist = from_dist; m_CurDist<=to_dist; m_CurDist++) {
     sprintf(fname, "disk_z2_pivot_dist%03d.dat", m_CurDist);
-    if ((fp = fopen(fname, "wt")) == NULL)
-    {
+    if ((fp = fopen(fname, "wt")) == NULL) {
       printf("Unable to open output file\n");
       return;
     }
@@ -245,20 +231,17 @@ void pivotal_sites(int from_dist, int to_dist, int x_points, int confs_per_point
     fprintf(fp, "# Pivotal sites on a finite disk in Z2 of radius %d\n", m_CurDist);
 
     m_P = 0.0;
-    for (int points = 0; points<x_points; points++)  
-    {
+    for (int points = 0; points<x_points; points++) {
       m_P               += inc;
       success            = 0;
       pivotals_fraction  = 0.0;
 
-      for (int conf=0; conf<confs_per_point; conf++)
-      {
+      for (int conf=0; conf<confs_per_point; conf++) {
         create_config(m_P);
         memcpy(config, m_Status, sizeof(m_Status));
         
         //Is there percolation?
-        if (percolation_on_existing_config(MAX_DIST, MAX_DIST) == 1)
-        {
+        if (percolation_on_existing_config(MAX_DIST, MAX_DIST) == 1) {
           pivotals = 0;
           memcpy(m_Status, config, sizeof(m_Status));
           level = config_level();
@@ -266,8 +249,7 @@ void pivotal_sites(int from_dist, int to_dist, int x_points, int confs_per_point
           //Count pivotal sites by checking on config one by one
           for (int i=0; i<(MAX_DIST*2 + 1); i++)
             for (int j=0; j<(MAX_DIST*2 + 1); j++)
-              if (m_Dist[i][j] <= m_CurDist && m_Status[i][j] == OCCUPIED)
-              {
+              if (m_Dist[i][j] <= m_CurDist && m_Status[i][j] == OCCUPIED) {
                 m_Status[i][j] = VACANT;
                 if (percolation_on_existing_config(MAX_DIST, MAX_DIST) == 0)
                   pivotals++;
@@ -295,8 +277,7 @@ void pivotal_sites(int from_dist, int to_dist, int x_points, int confs_per_point
 int main(int argc, char* argv[])
 {
 //  mup_on_disk(100, 100, 100, 300000);
-
   pivotal_sites(10, 10, 100, 10000);
 
-	return 0;
+  return 0;
 }
